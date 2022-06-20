@@ -1,7 +1,19 @@
+import Head from 'next/head';
 import '../styles/globals.css'
+import { GlobalStyle } from '../Components/Layout/global.styles';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <div>
+      <Head>
+        <link rel="icon" href="/image/logos/favicon.ico" />
+      </Head>
+      <GlobalStyle/>
+      {/* <Layout> */}
+        <Component {...pageProps} />
+      {/* </Layout> */}
+    </div>
+  )
 }
 
 export default MyApp
