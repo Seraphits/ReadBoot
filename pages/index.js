@@ -4,6 +4,8 @@ import classListingsData from '../Data/ClassListings.json'
 // import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
+import Card from '../Components/02-Molecules/card'
+import { Grid3 } from '../Components/04-Templetes/grids'
 
 const Header = styled.div`
   background-color: #0A1108E3;
@@ -80,6 +82,7 @@ export async function getStaticProps(context) {
 
 export default function Home(props) {
   console.log("props", props);
+  // const { imgUrl, name, department, imgUrl } = props.classListing;
   return (
     <div >
       <Head>
@@ -97,12 +100,18 @@ export default function Home(props) {
           <span>Check Out Our Classes</span>
           Education for the 22nd Century
         </CenterHeaderH2>
-        <div >
+        <Grid3 >
           <div>Classes Card loop through</div>
           {props.classListings.map((classListing) =>(
-            <div key={classListing.classID}>{classListing.name}</div>
+            <div key={classListing.classID}>
+              <Card name={classListing.name}
+                    classID={classListing.classID}
+                    department={classListing.department}
+                    imgUrl={classListing.imgUrl}
+              />
+            </div>
           ))}
-        </div>
+        </Grid3>
       </Main>
 
       <footer >
