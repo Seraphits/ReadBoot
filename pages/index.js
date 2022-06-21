@@ -1,8 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import classListingsData from '../Data/ClassListings'
 // import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
-import { Logo } from '../Components/01-Atoms/Logo'
+import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
+
 
 const Header = styled.div`
   background-color: #0A1108E3;
@@ -15,7 +17,6 @@ const Header = styled.div`
   height: 75vh;
 `
 const Title = styled.h1`
-  /* background-color:yellowgreen ; */
   font-size: 6rem;
   width: 100%;
   text-align: left;
@@ -23,25 +24,20 @@ const Title = styled.h1`
   text-shadow: .05em .05em .08em black, .08em .08em .1em white ;
 
   @media only screen and (max-width: 700px) {
-    /* background-color: lightblue; */
     font-size: 5rem;
     padding-left: 5%;
   }
   @media only screen and (max-width: 500px) {
-    /* background-color: plum; */
     font-size: 3.5rem;
   }
   span {
-    /* background-color: beige; */
     display: block;
     font-size: 3rem;
     color: white;
     @media only screen and (max-width: 700px) {
-      /* background-color: blue; */
       font-size: 2rem;
     }
     @media only screen and (max-width: 700px) {
-      /* background-color: teal; */
       font-size: 1.5rem;
     }
   }
@@ -90,8 +86,17 @@ const CenterHeaderH2 = styled.div`
     }
   }
 `
+// export async function getStaticProps(context) {
+//   console.log("getStaticProps runs here");
+//   return {
+//     props: {
+//       classListings: classListingsData,
+//     }, // will be passed to the page component as props
+//   }
+// }
 
-export default function Home() {
+export default function Home(props) {
+  // console.log("props", props);
   return (
     <div >
       <Head>
@@ -101,8 +106,8 @@ export default function Home() {
       </Head>
       <Header>
 
-        <Title><Logo>Read<span>Boot</span></Logo>
-          <span>Rebooting Education</span>
+        <Title><LogoRead>Read</LogoRead><LogoBoot>Boot</LogoBoot>
+          <span >Rebooting Education</span>
         </Title>
       </Header>
       <Main >
@@ -112,6 +117,9 @@ export default function Home() {
         </CenterHeaderH2>
         <div >
           <div>Classes Card loop through</div>
+          {/* {props.classListings.map((classListing) =>(
+            <div>{classListing.name}</div>
+          ))} */}
         </div>
       </Main>
 

@@ -1,11 +1,18 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const Logo = styled.div`
+
+export const Logo = css`
+  display: inline-block;
+`
+export const LogoRead = styled.div`
   /* background-color: peru; */
+  ${Logo}
   color: red;
-  span {
-   display: inline-block;
-   color: white;
-   font-size: inherit;
-  }
+  font-size: inherit;
+`
+export const LogoBoot = styled.div`
+  /* background-color: peru; */
+  ${Logo}
+  color: white;
+  font-size: inherit;
 `
