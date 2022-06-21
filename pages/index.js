@@ -1,10 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import classListingsData from '../Data/ClassListings'
+import classListingsData from '../Data/ClassListings.json'
 // import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
-
 
 const Header = styled.div`
   background-color: #0A1108E3;
@@ -22,7 +21,6 @@ const Title = styled.h1`
   text-align: left;
   padding-left: 8%;
   text-shadow: .05em .05em .08em black, .08em .08em .1em white ;
-
   @media only screen and (max-width: 700px) {
     font-size: 5rem;
     padding-left: 5%;
@@ -43,36 +41,21 @@ const Title = styled.h1`
   }
 `
 const Main = styled.main`
-  /* background-color: rebeccapurple; */
-  /* background-image: url(/ReadBoot.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  height: 75vh; */
   padding-top: 3rem;
 `
-
 const CenterHeaderH2 = styled.div`
-  /* background-color:yellowgreen ; */
   font-size: 3rem;
   width: 100%;
   text-align: center;
   padding-left: 8%;
-  /* text-shadow: .05em .05em .08em black, .08em .08em .1em white ; */
-
   @media only screen and (max-width: 700px) {
-    /* background-color: lightblue; */
     font-size: 2.5rem;
     padding-left: 5%;
   }
   @media only screen and (max-width: 500px) {
-    /* background-color: plum; */
     font-size: 2rem;
   }
   span {
-    /* background-color: beige; */
     display: block;
     font-size: 2rem;
     /* color: white; */
@@ -86,17 +69,17 @@ const CenterHeaderH2 = styled.div`
     }
   }
 `
-// export async function getStaticProps(context) {
-//   console.log("getStaticProps runs here");
-//   return {
-//     props: {
-//       classListings: classListingsData,
-//     }, // will be passed to the page component as props
-//   }
-// }
+export async function getStaticProps(context) {
+  console.log("getStaticProps runs here");
+  return {
+    props: {
+      classListings: classListingsData,
+    }, // will be passed to the page component as props
+  }
+}
 
 export default function Home(props) {
-  // console.log("props", props);
+  console.log("props", props);
   return (
     <div >
       <Head>
@@ -105,7 +88,6 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
-
         <Title><LogoRead>Read</LogoRead><LogoBoot>Boot</LogoBoot>
           <span >Rebooting Education</span>
         </Title>
@@ -117,9 +99,9 @@ export default function Home(props) {
         </CenterHeaderH2>
         <div >
           <div>Classes Card loop through</div>
-          {/* {props.classListings.map((classListing) =>(
-            <div>{classListing.name}</div>
-          ))} */}
+          {props.classListings.map((classListing) =>(
+            <div key={classListing.classID}>{classListing.name}</div>
+          ))}
         </div>
       </Main>
 
