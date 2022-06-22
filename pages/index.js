@@ -4,8 +4,8 @@ import classListingsData from '../Data/ClassListings.json'
 // import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
-import Card from '../Components/02-Molecules/card'
-import { Grid3 } from '../Components/04-Templetes/grids'
+import ClassCard from '../Components/02-Molecules/ClassCards'
+import { Flex } from '../Components/04-Templetes/flex'
 
 const Header = styled.div`
   background-color: #0A1108E3;
@@ -100,18 +100,28 @@ export default function Home(props) {
           <span>Check Out Our Classes</span>
           Education for the 22nd Century
         </CenterHeaderH2>
-        <Grid3 >
+        <div >
           <div>Classes Card loop through</div>
-          {props.classListings.map((classListing) =>(
-            <div key={classListing.classID}>
-              <Card name={classListing.name}
+          {/* {props.classListings.map((classListing) =>(
+            <div key={classListing.classID}> */}
+            <Flex>
+              {/* <ClassCard name={classListing.name}
                     classID={classListing.classID}
                     department={classListing.department}
                     imgUrl={classListing.imgUrl}
+              /> */}
+              <ClassCard name="Choosing Your Technology"
+                    classID='choosing-your-technology'
+                    department="Build"
+                    imgUrl="/image/SaterdayGroupPic.jpg"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor sapien a massa efficitur blandit. "
               />
+              <br/>
+            </Flex>
+
             </div>
-          ))}
-        </Grid3>
+          {/* ))}
+        </div> */}
       </Main>
 
       <footer >
