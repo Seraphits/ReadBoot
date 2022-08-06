@@ -5,8 +5,8 @@ import classListingsData from '../Data/ClassListings.json'
 import styled from 'styled-components'
 import styles from '../styles/icon.module.scss'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
-// import ClassCard from '../Components/02-Molecules/ClassCards'
-// import { Flex } from '../Components/04-Templetes/flex'
+import ClassCard from '../Components/02-Molecules/ClassCards'
+import { Flex } from '../Components/04-Templetes/flex'
 import { Grid4 } from '../Components/04-Templetes/grids'
 import  { IconCard } from '../Components/02-Molecules/iconCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -16,7 +16,7 @@ import {    faGlasses,
           faCloudMoon }
         from '@fortawesome/free-solid-svg-icons';
 
-const Hero = styled.div`
+const Header = styled.div`
   background-color: #0A1108E3;
   background-image: url(/ReadBoot.png);
   background-repeat: no-repeat;
@@ -99,42 +99,71 @@ export default function Home(props) {
         <meta name="description" content="ReBooting Education" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero>
+      <Header>
         <Title><LogoRead>Read</LogoRead><LogoBoot>Boot</LogoBoot>
           <span >Rebooting Education</span>
         </Title>
-      </Hero>
+      </Header>
       <Main >
+      <CenterHeaderH2>
+        Creating the Future of Education
+          <span>Classes</span>
+        </CenterHeaderH2>
+      <Grid4>
+        <IconCard>
+          <div className={styles.icon__iconbox}>
+            <FontAwesomeIcon icon={faCloudMoon} className={styles.icon__icon}  />
+          </div>
+          <h3>Imagine</h3>
+        </IconCard>
+        <IconCard>
+          <div className={styles.icon__iconbox}>
+            <FontAwesomeIcon icon={faGlasses} className={styles.icon__icon}  />
+          </div>
+          <h3>OverSeee</h3>
+        </IconCard>
+        <IconCard>
+          <div className={styles.icon__iconbox}>
+            <FontAwesomeIcon icon={faHammer} className={styles.icon__icon}  />
+          </div>
+          <h3>Build</h3>
+        </IconCard>
+        <IconCard>
+          <div className={styles.icon__iconbox}>
+            <FontAwesomeIcon icon={faLightbulb} className={styles.icon__icon}  />
+          </div>
+          <h3>Inpire</h3>
+        </IconCard>
+      </Grid4>
+
+
+
         <CenterHeaderH2>
-          Creating the Future of Education
-            <span>Classes</span>
-          </CenterHeaderH2>
-        <Grid4>
-          <IconCard>
-            <div className={styles.icon__iconbox}>
-              <FontAwesomeIcon icon={faCloudMoon} className={styles.icon__icon}  />
+          <span>Check Out Our Classes</span>
+          Education for the 22nd Century
+        </CenterHeaderH2>
+        <div >
+          <div>Classes Card loop through</div>
+           {props.classListings.map((classListing) =>(
+            <div key={classListing.classID}>
+            <Flex>
+               <ClassCard name={classListing.name}
+                    classID={classListing.classID}
+                    department={classListing.department}
+                    imgUrl={classListing.imgUrl}
+              />
+              {/* <ClassCard name="Choosing Your Technology"
+                    classID='choosing-your-technology'
+                    department="Build"
+                    imgUrl="/image/SaterdayGroupPic.jpg"
+                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse porttitor sapien a massa efficitur blandit. "
+              /> */}
+              <br/>
+            </Flex>
+
             </div>
-            <h3>Imagine</h3>
-          </IconCard>
-          <IconCard>
-            <div className={styles.icon__iconbox}>
-              <FontAwesomeIcon icon={faGlasses} className={styles.icon__icon}  />
-            </div>
-            <h3>OverSeee</h3>
-          </IconCard>
-          <IconCard>
-            <div className={styles.icon__iconbox}>
-              <FontAwesomeIcon icon={faHammer} className={styles.icon__icon}  />
-            </div>
-            <h3>Build</h3>
-          </IconCard>
-          <IconCard>
-            <div className={styles.icon__iconbox}>
-              <FontAwesomeIcon icon={faLightbulb} className={styles.icon__icon}  />
-            </div>
-            <h3>Inpire</h3>
-          </IconCard>
-        </Grid4>
+          ))}
+        </div>
       </Main>
 
       <footer >
