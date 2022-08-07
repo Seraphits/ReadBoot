@@ -109,7 +109,7 @@ export default function Home(props) {
           Creating the Future of Education
             <span>Classes</span>
           </CenterHeaderH2>
-        <Grid4>
+        {/* <Grid4>
           <Link href='/imagine'>
             <a>
               <div className={styles.icon__iconbox}>
@@ -140,7 +140,7 @@ export default function Home(props) {
               <h3>Inpire</h3>
             </a>
           </Link>
-        </Grid4>
+        </Grid4> */}
       </Main>
 
       <footer >
