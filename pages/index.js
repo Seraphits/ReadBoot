@@ -118,7 +118,7 @@ export default function Home(props) {
               <h3>Imagine</h3>
             </a>
           </Link>
-          {/* <Link href='/oversee' >
+          <Link href='/oversee' >
           <a>
             <div className={styles.icon__iconbox}>
               <FontAwesomeIcon icon={faGlasses} className={styles.icon__icon}  />
@@ -139,7 +139,7 @@ export default function Home(props) {
               </div>
               <h3>Inpire</h3>
             </a>
-          </Link> */}
+          </Link>
         </Grid4>
       </Main>
 
