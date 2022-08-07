@@ -111,36 +111,36 @@ export default function Home(props) {
             <span>Classes</span>
           </CenterHeaderH2>
         <Grid4>
-          <IconCard href='/imagine'>
+          <Link href='/imagine'>
             <a>
               <div className={styles.icon__iconbox}>
                 <FontAwesomeIcon icon={faCloudMoon} className={styles.icon__icon}  />
               </div>
               <h3>Imagine</h3>
             </a>
-          </IconCard>
-          <IconCard href='/oversee' >
+          </Link>
+          <Link href='/oversee' >
           <a>
             <div className={styles.icon__iconbox}>
               <FontAwesomeIcon icon={faGlasses} className={styles.icon__icon}  />
             </div>
             <h3>OverSee</h3>
             </a>
-          </IconCard>
-          <IconCard href='/build'><a>
+          </Link>
+          <Link href='/build'><a>
             <div className={styles.icon__iconbox}>
               <FontAwesomeIcon icon={faHammer} className={styles.icon__icon}  />
             </div>
             <h3>Build</h3></a>
-          </IconCard>
-          <IconCard href='/inpire'>
+          </Link>
+          <Link href='/inpire'>
             <a>
               <div className={styles.icon__iconbox}>
                 <FontAwesomeIcon icon={faLightbulb} className={styles.icon__icon}  />
               </div>
               <h3>Inpire</h3>
             </a>
-          </IconCard>
+          </Link>
         </Grid4>
       </Main>
 
