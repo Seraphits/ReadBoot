@@ -111,7 +111,7 @@ export default function Home(props) {
             <span>Classes</span>
           </CenterHeaderH2>
         <Grid4>
-          <IconCard href='/users'>
+          <IconCard href='/imagine'>
             <a>
               <div className={styles.icon__iconbox}>
                 <FontAwesomeIcon icon={faCloudMoon} className={styles.icon__icon}  />
@@ -119,7 +119,7 @@ export default function Home(props) {
               <h3>Imagine</h3>
             </a>
           </IconCard>
-          <IconCard href='/users' >
+          <IconCard href='/oversee' >
           <a>
             <div className={styles.icon__iconbox}>
               <FontAwesomeIcon icon={faGlasses} className={styles.icon__icon}  />
@@ -127,13 +127,13 @@ export default function Home(props) {
             <h3>OverSee</h3>
             </a>
           </IconCard>
-          <IconCard href='/users'><a>
+          <IconCard href='/build'><a>
             <div className={styles.icon__iconbox}>
               <FontAwesomeIcon icon={faHammer} className={styles.icon__icon}  />
             </div>
             <h3>Build</h3></a>
           </IconCard>
-          <IconCard href='/users'>
+          <IconCard href='/inpire'>
             <a>
               <div className={styles.icon__iconbox}>
                 <FontAwesomeIcon icon={faLightbulb} className={styles.icon__icon}  />
