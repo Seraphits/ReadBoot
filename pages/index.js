@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import classListingsData from '../Data/ClassListings.json'
 // import styles from '../styles/Home.module.css'
 import styled from 'styled-components'
-import styles from '../styles/icon.module.scss'
+import styles from '../styles/01-Atoms/icon.module.scss'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
 // import ClassCard from '../Components/02-Molecules/ClassCards'
 // import { Flex } from '../Components/04-Templetes/flex'
@@ -110,29 +111,35 @@ export default function Home(props) {
             <span>Classes</span>
           </CenterHeaderH2>
         <Grid4>
-          <IconCard>
-            <div className={styles.icon__iconbox}>
-              <FontAwesomeIcon icon={faCloudMoon} className={styles.icon__icon}  />
-            </div>
-            <h3>Imagine</h3>
+          <IconCard href='/users'>
+            <a>
+              <div className={styles.icon__iconbox}>
+                <FontAwesomeIcon icon={faCloudMoon} className={styles.icon__icon}  />
+              </div>
+              <h3>Imagine</h3>
+            </a>
           </IconCard>
-          <IconCard>
+          <IconCard href='/users' >
+          <a>
             <div className={styles.icon__iconbox}>
               <FontAwesomeIcon icon={faGlasses} className={styles.icon__icon}  />
             </div>
-            <h3>OverSeee</h3>
+            <h3>OverSee</h3>
+            </a>
           </IconCard>
-          <IconCard>
+          <IconCard href='/users'><a>
             <div className={styles.icon__iconbox}>
               <FontAwesomeIcon icon={faHammer} className={styles.icon__icon}  />
             </div>
-            <h3>Build</h3>
+            <h3>Build</h3></a>
           </IconCard>
-          <IconCard>
-            <div className={styles.icon__iconbox}>
-              <FontAwesomeIcon icon={faLightbulb} className={styles.icon__icon}  />
-            </div>
-            <h3>Inpire</h3>
+          <IconCard href='/users'>
+            <a>
+              <div className={styles.icon__iconbox}>
+                <FontAwesomeIcon icon={faLightbulb} className={styles.icon__icon}  />
+              </div>
+              <h3>Inpire</h3>
+            </a>
           </IconCard>
         </Grid4>
       </Main>
