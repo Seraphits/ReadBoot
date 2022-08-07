@@ -111,12 +111,12 @@ export default function Home(props) {
           </CenterHeaderH2>
         <Grid4>
           <Link href='/imagine'>
-            {/* <a> */}
+            <a>
               <div className={styles.icon__iconbox}>
                 <FontAwesomeIcon icon={faCloudMoon} className={styles.icon__icon}  />
               </div>
               <h3>Imagine</h3>
-            {/* </a> */}
+            </a>
           </Link>
           {/* <Link href='/oversee' >
           <a>
