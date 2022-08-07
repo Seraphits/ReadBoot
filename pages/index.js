@@ -9,25 +9,11 @@ import { CenterHeaderH2 } from '../Components/01-Atoms/Texts'
 import styles from '../styles/01-Atoms/icon.module.scss'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
 import { Grid4 } from '../Components/04-Templetes/grids'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import {    faGlasses,
-//             faHammer,
-//             faLightbulb,
-//           faCloudMoon }
-//         from '@fortawesome/free-solid-svg-icons';
+
 import { FaCloudMoon,
         FaGlasses,
         FaHammer,
         FaLightbulb } from 'react-icons/fa';
-
-// export async function getStaticProps(context) {
-//   console.log("getStaticProps runs here");
-//   return {
-//     props: {
-//       classListings: classListingsData,
-//     }, // will be passed to the page component as props
-//   }
-// }
 
 export default function Home(props) {
   console.log("props", props);

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import '../styles/globals.scss'
 import { GlobalStyle } from '../Components/Layout/global.styles';
+import Layout from '../Components/Layout/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,9 +10,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/image/logos/favicon.ico" />
       </Head>
       <GlobalStyle/>
-      {/* <Layout> */}
+      <Layout>
         <Component {...pageProps} />
-      {/* </Layout> */}
+      </Layout>
     </div>
   )
 }
