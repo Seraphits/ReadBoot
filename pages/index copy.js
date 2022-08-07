@@ -8,7 +8,6 @@ import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
 import ClassCard from '../Components/02-Molecules/ClassCards'
 import { Flex } from '../Components/04-Templetes/flex'
 import { Grid4 } from '../Components/04-Templetes/grids'
-import  { IconCard } from '../Components/02-Molecules/iconCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {    faGlasses,
             faHammer,
@@ -105,7 +104,7 @@ export default function Home(props) {
         </Title>
       </Header>
       <Main >
-      <CenterHeaderH2>
+      {/* <CenterHeaderH2>
         Creating the Future of Education
           <span>Classes</span>
         </CenterHeaderH2>
@@ -134,7 +133,7 @@ export default function Home(props) {
           </div>
           <h3>Inpire</h3>
         </IconCard>
-      </Grid4>
+      </Grid4> */}
 
 
 
