@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 
 
-export default function Imagine() {
+export default function Inspire() {
   return (
     <div >
       <Head>

@@ -132,12 +132,12 @@ export default function Home(props) {
             </div>
             <h3>Build</h3></a>
           </Link>
-          <Link href='/inpire'>
+          <Link href='/inspire'>
             <a>
               <div className={styles.icon__iconbox}>
                 <FontAwesomeIcon icon={faLightbulb} className={styles.icon__icon}  />
               </div>
-              <h3>Inpire</h3>
+              <h3>Inspire</h3>
             </a>
           </Link>
         </Grid4>

@@ -3,14 +3,16 @@ import Link from 'next/link';
 
 
 
-export default function Imagine() {
+export default function Build() {
   return (
     <div >
       <Head>
-        <title>Imagine</title>
+        <title>Build</title>
         <meta name='keywords' content='ReadBoot'/>
       </Head>
-     <h1>Imagine</h1>
+     <h1>Build</h1>
     </div>
   )
 }
+
+
