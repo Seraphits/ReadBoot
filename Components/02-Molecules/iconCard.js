@@ -8,7 +8,7 @@ from '@fortawesome/free-solid-svg-icons';
 
 
 
-export const IconCard = styled(Link)`
+export const IconCard = styled.div`
   font-size: 1.5rem;
 `
 // This will not work with Styled component because of the hovers. will have to do in SCSS.
