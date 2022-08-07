@@ -109,16 +109,16 @@ export default function Home(props) {
           Creating the Future of Education
             <span>Classes</span>
           </CenterHeaderH2>
-        {/* <Grid4>
+        <Grid4>
           <Link href='/imagine'>
-            <a>
+            {/* <a> */}
               <div className={styles.icon__iconbox}>
                 <FontAwesomeIcon icon={faCloudMoon} className={styles.icon__icon}  />
               </div>
               <h3>Imagine</h3>
-            </a>
+            {/* </a> */}
           </Link>
-          <Link href='/oversee' >
+          {/* <Link href='/oversee' >
           <a>
             <div className={styles.icon__iconbox}>
               <FontAwesomeIcon icon={faGlasses} className={styles.icon__icon}  />
@@ -139,8 +139,8 @@ export default function Home(props) {
               </div>
               <h3>Inpire</h3>
             </a>
-          </Link>
-        </Grid4> */}
+          </Link> */}
+        </Grid4>
       </Main>
 
       <footer >
