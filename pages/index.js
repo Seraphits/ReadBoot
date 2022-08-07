@@ -5,6 +5,7 @@ import classListingsData from '../Data/ClassListings.json'
 import styled from 'styled-components'
 import { Hero, Title } from '../Components/03-Organisms/Hero'
 import { Container } from '../Components/Layout/Spacing'
+import { CenterHeaderH2 } from '../Components/01-Atoms/Texts'
 import styles from '../styles/01-Atoms/icon.module.scss'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
 import { Grid4 } from '../Components/04-Templetes/grids'
@@ -19,41 +20,14 @@ import { FaCloudMoon,
         FaHammer,
         FaLightbulb } from 'react-icons/fa';
 
-
-const CenterHeaderH2 = styled.div`
-  font-size: 3rem;
-  width: 100%;
-  text-align: center;
-  padding-left: 8%;
-  @media only screen and (max-width: 700px) {
-    font-size: 2.5rem;
-    padding-left: 5%;
-  }
-  @media only screen and (max-width: 500px) {
-    font-size: 2rem;
-  }
-  span {
-    display: block;
-    font-size: 2rem;
-    /* color: white; */
-    @media only screen and (max-width: 700px) {
-      /* background-color: blue; */
-      font-size: 1.5rem;
-    }
-    @media only screen and (max-width: 700px) {
-      /* background-color: teal; */
-      font-size: 1.5rem;
-    }
-  }
-`
-export async function getStaticProps(context) {
-  console.log("getStaticProps runs here");
-  return {
-    props: {
-      classListings: classListingsData,
-    }, // will be passed to the page component as props
-  }
-}
+// export async function getStaticProps(context) {
+//   console.log("getStaticProps runs here");
+//   return {
+//     props: {
+//       classListings: classListingsData,
+//     }, // will be passed to the page component as props
+//   }
+// }
 
 export default function Home(props) {
   console.log("props", props);
