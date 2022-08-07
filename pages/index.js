@@ -9,7 +9,6 @@ import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
 // import ClassCard from '../Components/02-Molecules/ClassCards'
 // import { Flex } from '../Components/04-Templetes/flex'
 import { Grid4 } from '../Components/04-Templetes/grids'
-import  { IconCard } from '../Components/02-Molecules/iconCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {    faGlasses,
             faHammer,
