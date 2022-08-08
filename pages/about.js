@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import styles from '../Components/05-Page/About.module.scss';
-import { HeroAbout, Title } from '../Components/03-Organisms/Hero';
+import { HeroAbout, HeroAboutTeam, Title } from '../Components/03-Organisms/Hero';
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
         <meta name='keywords' content='ReadBoot'/>
       </Head>
       <HeroAbout >
-        <h1 className={styles.Hero__H1 }   >
+        <h1 className={styles.Hero__H1__About }   >
           <span>Imagining, Inspiring and Overseeing<br/>the Future of Education Together</span>
           ReadBoot
         </h1>
@@ -22,9 +22,9 @@ export default function About() {
         <h2 className={styles.Centered} >History</h2>
         <p>Our founder Nicole Trapp is a trained and passionate futurist with a Master’s degree in Foresight from the University of Houston. ReadBoot was born out of her passionate vision for a better educational system for our kids and young adults. Nicole eventually enrolled in a second master’s degree to help her integrate technology more clearly into her vision. She enrolled in the MS in Learning Design and Technology program at the University of South Florida in 2020,  where she met Jeff Ramon and Zach Hill. They worked so well together on a class project that they became friends and soon Jeff and Zach embraced Nicole’s passion for pedagogical reform in education. They decided to form a not for profit together dedicated to creating a stronger educational system through pedagogical reform and the strategic use of instructional technology.</p>
       </article>
-      <section className={styles.Hero__Centered__Team} >
-
-      </section>
+      <HeroAboutTeam>
+        <h2 className={styles.Centered} >Our Team</h2>
+      </HeroAboutTeam>
     </div>
   )
 }

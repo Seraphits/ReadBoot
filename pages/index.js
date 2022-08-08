@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { HeroHome, Title } from '../Components/03-Organisms/Hero'
 import { Container } from '../Components/Layout/Spacing'
 import { CenterHeaderH2 } from '../Components/01-Atoms/Texts'
-import styles from '../Components/01-Atoms/icon.module.scss'
+import styles from '../Components/05-Page/Home.module.scss'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
 import { Grid4 } from '../Components/04-Templetes/grids'
 
@@ -24,9 +24,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroHome>
-        <Title><LogoRead>Read</LogoRead><LogoBoot>Boot</LogoBoot>
+        <h1 className={styles.Hero__H1__Home} ><LogoRead>Read</LogoRead><LogoBoot>Boot</LogoBoot>
           <span >Rebooting Education</span>
-        </Title>
+        </h1>
       </HeroHome>
       <Container >
         <CenterHeaderH2>
