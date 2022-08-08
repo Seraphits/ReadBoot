@@ -8,7 +8,7 @@ import styles from "./NavBar.module.scss"
       <div className={styles.logo__box} >
         <Link href="/">
           <a>
-            <img src="images/logo.png" className={styles.logo}/>
+            <img src="images/ branding/logo.png" className={styles.logo}/>
           </a>
         </Link>
       </div>

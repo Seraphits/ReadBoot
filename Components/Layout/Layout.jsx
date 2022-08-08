@@ -1,5 +1,5 @@
 // import Head from 'next/head'
-// import CopyRight from './CopyRight'
+import CopyRight from './CopyRight/CopyRight'
 import Navbar from './Nav/Navbar'
 
 
@@ -8,7 +8,7 @@ export default function Layout({children}) {
     <div>
       <Navbar/>
       {children}
-      {/* <CopyRight/> */}
+      <CopyRight/>
     </div>
   )
 }
