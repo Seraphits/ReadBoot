@@ -1,4 +1,4 @@
-@mixin HeaderDark {
+@mixin HeaderLight {
   color: white;
   text-align: center;
   text-shadow: .05em .05em .08em black, .08em .08em .1em white ;
@@ -24,7 +24,7 @@
 }
 
 .Hero__H1 {
-  @include HeaderDark;
+  @include HeaderLight;
   @include HeaderH1;
   &__About {
   @extend .Hero__H1;
@@ -34,6 +34,18 @@
     @extend .Hero__H1;
     text-align: center;
     padding-left: 8%;
+  }
+}
+
+@mixin HeaderH2 {
+  font-size: 2rem;
+}
+
+.Hero__H2 {
+  @include HeaderLight;
+  @include HeaderH2;
+  &__About {
+    @extend .Hero__H2;
   }
 
 }

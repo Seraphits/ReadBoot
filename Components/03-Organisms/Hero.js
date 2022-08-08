@@ -32,10 +32,20 @@ export const HeroAbout = styled.div`
 `
 export const HeroAboutTeam = styled.div`
   ${Hero};
+  display: block;
   background-color: aquamarine;
   background-image: url("images/MainPages/stones-gf85571872_1920.jpg");
   justify-content: center;
-  padding: 5rem;
+  padding: 4rem;
   height: auto;
-
+  @media only screen and (max-width: 1100px) {
+    height: auto;
+    padding: 3rem;
+  }
+  @media only screen and (max-width: 700px) {
+    padding: 2rem;
+  }
+  @media only screen and (max-width: 400px) {
+    padding: 1rem;
+  }
 `
