@@ -1,0 +1,16 @@
+import Head from 'next/head'
+import Link from 'next/link';
+
+
+
+export default function About() {
+  return (
+    <div >
+      <Head>
+        <title>About</title>
+        <meta name='keywords' content='ReadBoot'/>
+      </Head>
+     <h1>About</h1>
+    </div>
+  )
+}

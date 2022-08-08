@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { Hero, Title } from '../Components/03-Organisms/Hero'
 import { Container } from '../Components/Layout/Spacing'
 import { CenterHeaderH2 } from '../Components/01-Atoms/Texts'
-import styles from '../styles/01-Atoms/icon.module.scss'
+import styles from '../Components/01-Atoms/icon.module.scss'
 import { LogoRead, LogoBoot } from '../Components/01-Atoms/Logo'
 import { Grid4 } from '../Components/04-Templetes/grids'
 
@@ -15,9 +15,7 @@ import { FaCloudMoon,
         FaHammer,
         FaLightbulb } from 'react-icons/fa';
 
-export default function Home(props) {
-  console.log("props", props);
-  // const { imgUrl, name, department, imgUrl } = props.classListing;
+export default function Home() {
   return (
     <div >
       <Head>
