@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import classListingsData from '../Data/ClassListings.json'
 import styled from 'styled-components'
-import { Hero, Title } from '../Components/03-Organisms/Hero'
+import { HeroHome, Title } from '../Components/03-Organisms/Hero'
 import { Container } from '../Components/Layout/Spacing'
 import { CenterHeaderH2 } from '../Components/01-Atoms/Texts'
 import styles from '../Components/01-Atoms/icon.module.scss'
@@ -23,11 +23,11 @@ export default function Home() {
         <meta name="description" content="ReBooting Education" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero>
+      <HeroHome>
         <Title><LogoRead>Read</LogoRead><LogoBoot>Boot</LogoBoot>
           <span >Rebooting Education</span>
         </Title>
-      </Hero>
+      </HeroHome>
       <Container >
         <CenterHeaderH2>
           Creating the Future of Education

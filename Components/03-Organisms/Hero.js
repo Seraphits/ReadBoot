@@ -1,15 +1,30 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const Hero = styled.div`
+const Hero = css`
+  height: 80vh;
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+`
+
+export const HeroHome = styled.div`
+  ${Hero};
   background-color: #0A1108E3;
   background-image: url(/ReadBoot.png);
-  background-repeat: no-repeat;
   background-position: right;
-  display: flex;
   flex-direction: row;
-  align-items: center;
-  height: 75vh;
+  background-size: 50%;
 `
+
+export const HeroAbout = styled.div`
+  ${Hero};
+  background-color: aquamarine;
+  background-image: url("/images/MainPages/Girl-Holding-World.jpg");
+  justify-content: center;
+`
+
 export const Title = styled.h1`
   font-size: 6rem;
   width: 100%;
