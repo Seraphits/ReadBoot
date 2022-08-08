@@ -1,0 +1,38 @@
+.Card {
+  background-color: rgba(234,235,229,1);
+  position: relative;
+  width: 100%;
+  height: 120px;
+  border-radius: 1rem;
+  box-shadow: 0 5px 20px rgba($color: #000000, $alpha: .5);
+  transition: .3s;
+  padding: 1rem 2rem;
+  margin-top: 110px;
+
+  &:hover {
+    height: auto;
+  }
+  &:hover .Content {
+    opacity: 1;
+    transform: translateY(-90px);
+  }
+}
+.imgbox {
+  display: flex;
+  height: 180px;
+  width: 100%;
+  // background-color: aqua;
+  transform: translateY(-100px);
+  z-index: 2;
+  justify-content: center;
+
+}
+.Content {
+
+  margin-bottom: -90px;
+  text-align: center;
+  transition: .3s;
+  z-index: 0;
+  transform: translateY(-500px);
+  opacity: 0;
+}

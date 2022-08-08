@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '../Components/05-Page/About.module.scss';
 import { HeroAbout, HeroAboutTeam, Title } from '../Components/03-Organisms/Hero';
 import { Grid3 } from '../Components/04-Templetes/grids';
+import ExpandableCard from '../Components/02-Molecules/Cards/ExpandableCard';
 
 export default function About() {
   return (
@@ -26,9 +27,9 @@ export default function About() {
       <HeroAboutTeam>
         <h2 className={styles.Hero__H2__About} >Our Team</h2>
          <Grid3>
-          <div><h1>Div 1</h1></div>
-          <div><h1>Div 2</h1></div>
-          <div><h1>Div 3</h1></div>
+          <ExpandableCard/>
+          <ExpandableCard/>
+          <ExpandableCard/>
         </Grid3>
       </HeroAboutTeam>
 

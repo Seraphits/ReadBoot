@@ -26,9 +26,9 @@ export const Grid3 = styled.div`
   padding: 0;
   justify-items: center;
   padding: 2rem;
-  div {
+  /* div {
     background-color: blueviolet;
-  }
+  } */
   @media only screen and (max-width: 600px) {
     grid-template-columns: 1fr 1fr ;
   }
