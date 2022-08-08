@@ -5,29 +5,33 @@ import styles from "./NavBar.module.scss"
  const NavBar = () => {
   return (
     <div className={styles.container}  >
-      <div className={styles.logo} >
-        <img src="images/logo.png" />
+      <div className={styles.logo__box} >
+        <Link href="/">
+          <a>
+            <img src="images/logo.png" className={styles.logo}/>
+          </a>
+        </Link>
       </div>
       <nav>
-        <ul>
+        <ul className={styles.Nav__List} >
           <li className={styles.Nav__Item} >
             <Link href="/">
-              <a>Home</a>
+              <a className={styles.Nav__Link} >Home</a>
             </Link>
           </li>
           <li className={styles.Nav__Item} >
             <Link href="/classes">
-              <a>Classes</a>
+              <a className={styles.Nav__Link} >Classes</a>
             </Link>
           </li>
           <li className={styles.Nav__Item} >
             <Link href="/about">
-              <a>About</a>
+              <a className={styles.Nav__Link} >About</a>
             </Link>
           </li>
           <li className={styles.Nav__Item} >
             <Link href="/">
-              <a>Contact Us</a>
+              <a className={styles.Nav__Link} >Contact Us</a>
             </Link>
           </li>
         </ul>

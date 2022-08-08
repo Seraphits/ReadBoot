@@ -1,11 +1,37 @@
+@import "../../00-Base/colors";
+
 .container {
-  background-color: aqua;
-  display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  background-color: color(white);
+  display: flex;
   justify-content: space-between;
-  align-content: space-around;
+  height: 80px;
+  padding: 1rem 3rem;
 }
 
 .logo {
+ height: 100%;
+}
 
+.Nav__List{
+  display: flex;
+  // justify-content: space-around;
+
+  align-items: center;
+  height: 100%;
+}
+.Nav__Item{
+  list-style: none;
+  padding-left: 4rem;
+}
+.Nav__Link {
+  // color: color(primary);
+  color: color(secondary);
+  text-decoration: none;
+  transition: all .3s;
+  &:hover {
+    color: color(primary);
+  }
+  &:active {
+    color: color(primary);
+  }
 }
