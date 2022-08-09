@@ -1,0 +1,23 @@
+[
+  {
+    "memberID": "1",
+    "name": "Nicole Trapp",
+    "position": "President",
+    "imgUrl": "./images/OurTeam/Nicole-BW.png",
+    "description": "Nicole is an academically trained futurist, who studies the future of education."
+  },
+  {
+    "memberID": "2",
+    "name": "Jeffery Ramon",
+    "position": "Vice President",
+    "imgUrl": "./images/OurTeam/Jeff-B-W.png",
+    "description": "Jeff's goal is to create e-learnings and corporate training videos to help people teachers"
+  },
+  {
+    "memberID": "3",
+    "name": "Zach Hill",
+    "position": "Vice President",
+    "imgUrl": "./images/OurTeam/Zach.png",
+    "description": "Zach's passion for helping others reach their learning goals drives him."
+  }
+]

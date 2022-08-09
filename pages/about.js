@@ -4,8 +4,19 @@ import styles from '../Components/05-Page/About.module.scss';
 import { HeroAbout, HeroAboutTeam, Title } from '../Components/03-Organisms/Hero';
 import { Grid3 } from '../Components/04-Templetes/grids';
 import ExpandableCard from '../Components/02-Molecules/Cards/ExpandableCard';
+import OurTeamData from '../Data/OurTeam.json'
 
-export default function About() {
+export async function getStaticProps(context) {
+  // console.log("getStaticProps runs here");
+  return {
+    props: {
+      teamMembers: OurTeamData,
+    }, // will be passed to the page component as props
+  }
+}
+
+export default function About(props) {
+  // console.log("getStaticProps runs here");
   return (
     <div >
       <Head>
@@ -26,11 +37,17 @@ export default function About() {
       </article>
       <HeroAboutTeam>
         <h2 className={styles.Hero__H2__About} >Our Team</h2>
-         <Grid3>
-          <ExpandableCard/>
-          <ExpandableCard/>
-          <ExpandableCard/>
-        </Grid3>
+        <Grid3>
+            {props.teamMembers.map((teamMember) =>(
+              <div key={teamMember.memberID} >
+                <ExpandableCard name={teamMember.name}
+                                position={teamMember.position}
+                                imgUrl={teamMember.imgUrl}
+                                description={teamMember.description}
+                                />
+              </div>
+            ))}
+          </Grid3>
       </HeroAboutTeam>
 
     </div>

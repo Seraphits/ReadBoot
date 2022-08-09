@@ -35,6 +35,8 @@ export const HeroAboutTeam = styled.div`
   display: block;
   background-color: aquamarine;
   background-image: url("images/MainPages/stones-gf85571872_1920.jpg");
+  background-size: cover;
+  background-position: top ;
   justify-content: center;
   padding: 4rem;
   height: auto;

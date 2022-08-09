@@ -1,17 +1,18 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './ExpandableCard.module.scss'
+import { getStaticProps } from '../../../pages/about';
 
-export default function ExpandableCard() {
+export default function ExpandableCard(props) {
   return (
     <div  className={styles.Card} >
      <div  className={styles.imgbox} >
-      <Image src="/images/OurTeam/Zach.png" width={180} height={180} />
+      <Image src={`/${props.imgUrl}`} width={180} height={180} />
      </div>
      <div  className={styles.Content} >
-      <h3>Zack Hill</h3>
-      <h5>Vice president</h5>
-      <p>Zach is a certified foreign language learning instructor and teaches at the Institute for Intensive English, or IIE. </p>
+      <h3>{props.name}</h3>
+      <h5>{props.position}</h5>
+      <p>{props.description}</p>
      </div>
     </div>
   )
