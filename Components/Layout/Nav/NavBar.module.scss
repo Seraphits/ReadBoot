@@ -35,3 +35,8 @@
     color: color(primary);
   }
 }
+.Nav__End {
+  width: 100%;
+  height: 2.5px;
+  background-color: lighten($color: red, $amount: 30);
+}

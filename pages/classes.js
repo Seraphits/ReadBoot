@@ -10,7 +10,10 @@ export default function Classes() {
         <title>Classes</title>
         <meta name='keywords' content='ReadBoot'/>
       </Head>
-     <h1>Classes</h1>
+      <header>
+        <h1>Classes</h1>
+      </header>
+
     </div>
   )
 }
