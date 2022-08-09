@@ -26,14 +26,17 @@ export const Grid3 = styled.div`
   padding: 0;
   justify-items: center;
   padding: 2rem;
+  /* background-color: aquamarine; */
   /* div {
     background-color: blueviolet;
   } */
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1000px) {
     grid-template-columns: 1fr 1fr ;
+  /* background-color: khaki; */
   }
-  @media only screen and (max-width: 300px) {
+  @media only screen and (max-width: 700px) {
     grid-template-columns: 1fr ;
+  /* background-color: blueviolet; */
   }
 `
 
