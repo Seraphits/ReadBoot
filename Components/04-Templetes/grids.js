@@ -36,3 +36,11 @@ export const Grid3 = styled.div`
     grid-template-columns: 1fr ;
   }
 `
+
+export const GridAutoFill = styled.div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50px, 150px));
+  grid-gap: 2rem;
+  background-color: blue;
+  padding: 2rem;
+`

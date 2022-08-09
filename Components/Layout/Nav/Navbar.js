@@ -38,7 +38,7 @@ import styles from "./NavBar.module.scss"
           </ul>
           </nav>
         </div>
-        <div  className={styles.Nav__End} ></div>
+        <div className={styles.Nav__End} ></div>
     </div>
   )
 }

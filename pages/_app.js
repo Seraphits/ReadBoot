@@ -7,7 +7,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <link rel="icon" href="/image/logos/favicon.ico" />
+        <link rel="icon" href="/images/ branding/favicon.ico" />
+        <title>ReadBoot</title>
+        <meta name="description" content="ReBooting Education" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyle/>
       <Layout>
