@@ -42,7 +42,7 @@ export const Grid3 = styled.div`
 
 export const GridAutoFill = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50px, 150px));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   grid-gap: 2rem;
   background-color: blue;
   padding: 2rem;

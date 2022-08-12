@@ -8,3 +8,12 @@ export const Flex = styled.div`
   justify-content: center;
   align-items: center;
 `
+export const CardFlexGrid = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4rem 0rem;
+  gap: 2rem;
+  row-gap: 2rem;
+  /* background-color: gainsboro; */
+  justify-content: center;
+`
