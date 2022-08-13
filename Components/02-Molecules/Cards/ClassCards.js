@@ -2,16 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import styled from "styled-components";
-import styles from '../../01-Atoms/_backgroundIMG.module.scss'
 
-// const Backing = styled.div`
-//   background-color: #0A1108E3;
-//   margin: 0%;
-//   height: 100vh;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-// `
 const Card =  styled.div`
   background-color: black;
   background-image: url("/images/MainPages/Girl-Holding-World.jpg");
@@ -56,6 +47,7 @@ const Content = styled.div`
 // This will not work with Styled component because of the hovers. will have to do in SCSS.
 const ClassCard = (props) => {
   return (
+    <Link href={`/classes/${props.classID}`}>
       <Card>
         <Image src={props.imgUrl} alt="Image" layout='fill'/>
         <Content>
@@ -65,6 +57,7 @@ const ClassCard = (props) => {
         </Content>
 
       </Card>
+    </Link>
   )
 };
 export default ClassCard;

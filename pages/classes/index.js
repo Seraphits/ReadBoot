@@ -1,12 +1,8 @@
 import Head from 'next/head'
-// import Link from 'next/link';
-// import LayersButton from '../../Components/01-Atoms/buttons/3LayerBtm';
 import ClassesTypeButtons from '../../Components/02-Molecules/ButonSets/ClassType';
-// import ClassesGrid from '../../Components/03-Organisms/ClassGrid';
 import { CardFlexGrid } from '../../Components/04-Templetes/flex';
 import ClassCard from '../../Components/02-Molecules/Cards/ClassCards'
 import classListingsData from '../../Data/ClassListings.json'
-// import { GridAutoFill } from '../../Components/04-Templetes/grids';
 import styles from '../../Components/05-Page/Classes/Classes.module.scss'
 
 export async function getStaticProps(context) {
@@ -37,9 +33,9 @@ export default function Classes(props) {
             <ClassCard name={classListing.name}
                     classID={classListing.classID}
                     department={classListing.department}
+                    description={classListing.description}
                     imgUrl={classListing.imgUrl}
               />
-
         </div>
           ))}
       </CardFlexGrid>
