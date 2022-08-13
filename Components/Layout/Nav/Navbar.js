@@ -1,6 +1,7 @@
  import Link from "next/link";
 // import { NavLink } from "./NavLink";
-import styles from "./NavBar.module.scss"
+import styles from "./NavBar.module.scss";
+import Image from "next/image";
 
  const NavBar = () => {
   return (
@@ -9,7 +10,9 @@ import styles from "./NavBar.module.scss"
         <div className={styles.logo__box} >
           <Link href="/">
             <a>
-              <img src="images/ branding/logo.png" className={styles.logo}/>
+              <div  className={styles.logo}>
+                <Image src="/images/branding/logo.png" layout='fill'/>
+              </div>
             </a>
           </Link>
         </div>

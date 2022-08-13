@@ -7,10 +7,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <link rel="icon" href="/images/ branding/favicon.ico" />
+        <link rel="icon" href="/images/branding/favicon.ico" />
         <title>ReadBoot</title>
         <meta name="description" content="ReBooting Education" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <GlobalStyle/>
       <Layout>
@@ -20,4 +19,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default MyApp;
