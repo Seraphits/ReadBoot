@@ -13,10 +13,16 @@ import styled from "styled-components";
 // `
 const Card = styled.div`
   background-color: black;
+  background-image: url("/images/MainPages/Girl-Holding-World.jpg");
   position: relative;
   width: 300px;
   height: 400px;
   box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
 `
 const Heading3 = styled.h3`
   font-size: 20px;
@@ -30,7 +36,13 @@ const Paragraph = styled.p`
   transition: all .5s;
 `
 const ImageBox = styled.div`
-
+  /* background-image: url("/images/MainPages/Girl-Holding-World.jpg");
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: center;
+  background-size: cover; */
+  background-color: aquamarine;
 `
 const Content = styled.div`
   position: absolute;
@@ -53,17 +65,24 @@ const Content = styled.div`
 const ClassCard = (props) => {
   return (
       <Card>
-        <ImageBox></ImageBox>
+        {/* <ImageBox> */}
+          {/* <Image
+          src="/images/MainPages/Girl-Holding-World.jpg"
+          alt="Picture of the author"
+          width={1000}
+          height={500}
+        /> */}
         <Content>
           <Heading3>{props.name}</Heading3>
           <Paragraph>{props.description}</Paragraph>
           <Link href='#'><a>Take Class</a></Link>
           {/* <Link href={`/classes/${props.classID}`}><a>Take Class</a></Link> */}
         </Content>
-        {/*  <br/>
+         {/* <br/>
         <br/>
         {props.department} <br/>
         {props.imgUrl} <br/> */}
+    {/* </ImageBox> */}
       </Card>
 
   )

@@ -14,6 +14,6 @@ export const CardFlexGrid = styled.div`
   margin: 4rem 0rem;
   gap: 2rem;
   row-gap: 2rem;
-  /* background-color: gainsboro; */
+  background-color: gainsboro;
   justify-content: center;
 `

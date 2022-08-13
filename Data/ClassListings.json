@@ -3,21 +3,62 @@
     "classID": "color-of-learning",
     "name": "Colors of learning",
     "department": "Imagine",
-    "imgUrl": "/image/SaterdayGroupPic.jpg",
+    "imgUrl": "Girl-Holding-World.jpg",
     "description": ""
   },
   {
     "classID": "choosing-your-technology",
     "name": "Choosing your technology",
     "department": "Build",
-    "imgUrl": "/image/SaterdayGroupPic.jpg",
+    "imgUrl": "stones-gf85571872_1920.jpg",
     "description": ""
   },
   {
     "classID": "the-4-turning-of-education",
     "name": "The Four Turnings of Education",
     "department": "Imagine",
+    "imgUrl": "Girl-Holding-World.jpg",
+    "description": ""
+  }, {
+    "classID": "color-of-learning1",
+    "name": "Colors of learning",
+    "department": "Imagine",
+    "imgUrl": "Girl-Holding-World.jpg",
+    "description": ""
+  },
+  {
+    "classID": "choosing-your-technology1",
+    "name": "Choosing your technology",
+    "department": "Build",
+    "imgUrl": "Girl-Holding-World.jpg",
+    "description": ""
+  },
+  {
+    "classID": "the-4-turning-of-education1",
+    "name": "The Four Turnings of Education",
+    "department": "Imagine",
+    "imgUrl": "stones-gf85571872_1920.jpg",
+    "description": ""
+  },
+  {
+    "classID": "color-of-learning2",
+    "name": "Colors of learning",
+    "department": "Imagine",
+    "imgUrl": "stones-gf85571872_1920.jpg",
+    "description": ""
+  },
+  {
+    "classID": "choosing-your-technology2",
+    "name": "Choosing your technology",
+    "department": "Build",
     "imgUrl": "/image/SaterdayGroupPic.jpg",
+    "description": ""
+  },
+  {
+    "classID": "the-4-turning-of-education2",
+    "name": "The Four Turnings of Education",
+    "department": "Imagine",
+    "imgUrl": "stones-gf85571872_1920.jpg",
     "description": ""
   }
 ]

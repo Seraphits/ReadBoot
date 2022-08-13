@@ -11,7 +11,7 @@ export const BtmBox = styled.div`
   margin: 4rem 2rem;
   gap: 2rem;
   row-gap: 4rem;
-  /* justify-content: center; */
+  justify-content: center;
 
 `
 

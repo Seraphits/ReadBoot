@@ -5,11 +5,20 @@ import ClassesTypeButtons from '../../Components/02-Molecules/ButonSets/ClassTyp
 // import ClassesGrid from '../../Components/03-Organisms/ClassGrid';
 import { CardFlexGrid } from '../../Components/04-Templetes/flex';
 import ClassCard from '../../Components/02-Molecules/Cards/ClassCards'
+import classListingsData from '../../Data/ClassListings.json'
 // import { GridAutoFill } from '../../Components/04-Templetes/grids';
 import styles from '../../Components/05-Page/Classes/Classes.module.scss'
 
+export async function getStaticProps(context) {
+  console.log("getStaticProps runs here");
+  return {
+    props: {
+      classListings: classListingsData,
+    }, // will be passed to the page component as props
+  }
+}
 
-export default function Classes() {
+export default function Classes(props) {
   return (
     <div>
       <Head>
@@ -23,16 +32,16 @@ export default function Classes() {
       </header>
       <h2>All Classes</h2>
       <CardFlexGrid>
-        <ClassCard  name="Colors Of Learning"
-                    description="Colors of different learning types"
+      {props.classListings.map((classListing) =>(
+            <div key={classListing.classID}>
+            <ClassCard name={classListing.name}
+                    classID={classListing.classID}
+                    department={classListing.department}
+                    imgUrl={classListing.imgUrl}
+              />
 
-        />
-        <ClassCard/>
-        <ClassCard/>
-        <ClassCard/>
-        <ClassCard/>
-        <ClassCard/>
-        <ClassCard/>
+        </div>
+          ))}
       </CardFlexGrid>
       </div>
     </div>
