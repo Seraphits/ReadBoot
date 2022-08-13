@@ -1,0 +1,14 @@
+.Card {
+  background-color: black;
+  background-image: url("/images/MainPages/Girl-Holding-World.jpg");
+  position: relative;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 30px 30px rgba(0,0,0,0.5);
+  display: flex;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+

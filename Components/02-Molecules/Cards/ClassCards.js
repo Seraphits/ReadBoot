@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import styled from "styled-components";
+import styles from '../../01-Atoms/_backgroundIMG.module.scss'
 
 // const Backing = styled.div`
 //   background-color: #0A1108E3;
@@ -11,7 +12,7 @@ import styled from "styled-components";
 //   justify-content: center;
 //   align-items: center;
 // `
-const Card = styled.div`
+const Card =  styled.div`
   background-color: black;
   background-image: url("/images/MainPages/Girl-Holding-World.jpg");
   position: relative;
@@ -35,15 +36,6 @@ const Paragraph = styled.p`
   font-size: 16px;
   transition: all .5s;
 `
-const ImageBox = styled.div`
-  /* background-image: url("/images/MainPages/Girl-Holding-World.jpg");
-  display: flex;
-  background-repeat: no-repeat;
-  align-items: center;
-  background-position: center;
-  background-size: cover; */
-  background-color: aquamarine;
-`
 const Content = styled.div`
   position: absolute;
   bottom: 0;
@@ -65,26 +57,14 @@ const Content = styled.div`
 const ClassCard = (props) => {
   return (
       <Card>
-        {/* <ImageBox> */}
-          {/* <Image
-          src="/images/MainPages/Girl-Holding-World.jpg"
-          alt="Picture of the author"
-          width={1000}
-          height={500}
-        /> */}
+        <Image src={props.imgUrl} alt="Image" layout='fill'/>
         <Content>
           <Heading3>{props.name}</Heading3>
           <Paragraph>{props.description}</Paragraph>
           <Link href='#'><a>Take Class</a></Link>
-          {/* <Link href={`/classes/${props.classID}`}><a>Take Class</a></Link> */}
         </Content>
-         {/* <br/>
-        <br/>
-        {props.department} <br/>
-        {props.imgUrl} <br/> */}
-    {/* </ImageBox> */}
-      </Card>
 
+      </Card>
   )
 };
 export default ClassCard;
