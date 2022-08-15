@@ -2,19 +2,19 @@
   {
     "techID": "zoom",
     "name": "Zoom",
-    "imgUrl": "/images/MainPages/Girl-Holding-World.jpg",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/VideoChat/Zoom.jpeg",
     "description": "Zoom is one of the most popular video-conferencing platforms and with its user-friendly, accessible interface, it is a good choice for your online classes. <br/>Some popular features of Zoom are its Whiteboard, Breakout Rooms, and screen-sharing features.<br/>Anyone can access a Zoom meeting through a link that the organizer sends to their email."
   },
   {
     "techID": "google-meet",
     "name": "Google Meet",
-    "imgUrl": "/images/MainPages/Girl-Holding-World.jpg",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/VideoChat/G-meet.jpeg",
     "description": "The Google suite of products  contains Google Meet, a wonderful video chatting technology, which integrates well with other tools like Google Jamboard and Google Slides.<br/>Google Meet also allows screen-sharing and includes Breakout Rooms in the paid version. <br/>You and all of  your users must have a gmail account to use this tool and the corresponding suite of useful cloud software that Google has."
   },
   {
     "techID": "microsoft-teams",
     "name": "Microsoft Teams",
-    "imgUrl": "/images/MainPages/Girl-Holding-World.jpg",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/VideoChat/microsoft-teams.jpeg",
     "description": "This is a popular video chat and online work platform which many people use  for education today. <br/>Teams offers a variety of features and seeks to be an end to end solution for working and learning online.<br/>However, we feel that many of its features are not intuitive. We include it here since it is enormously popular and offers many interesting features, such as the ability to collaborate on a PowerPoint or Word document. For that reason, you should be aware of it.  "
   }
 ]

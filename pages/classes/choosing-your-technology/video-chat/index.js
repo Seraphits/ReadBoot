@@ -1,6 +1,8 @@
-import Head from 'next/head'
+import Head from 'next/head';
 import Link from 'next/link';
-import videoChatData from '../../../../Data/ChoosingTech/VideoChat.json'
+import videoChatData from '../../../../Data/ChoosingTech/VideoChat.json';
+import PicTitle from '../../../../Components/02-Molecules/Cards/PicTitleCard';
+import { CardFlexGrid } from '../../../../Components/04-Templetes/flex';
 
 export async function getStaticProps(context) {
   console.log("getStaticProps runs here");
@@ -19,24 +21,18 @@ export default function VideoChat(props) {
         <meta name='keywords' content='ReadBoot'/>
       </Head>
      <h1>VideoChat</h1>
-     {props.videoChats.map((videoChat) =>(
-        <div key={videoChat.techID}>
-          <Link href={`/classes/choosing-your-technology/video_chat/${videoChat.techID}`}>
-            <a>
-              <p>{videoChat.techID}</p>
-              <p>{videoChat.name}</p>
-              <p>{videoChat.imgUrl}</p>
-
-            {/* <ClassCard name={classListing.name}
-                    classID={classListing.classID}
-                    department={classListing.department}
-                    description={classListing.description}
-                    imgUrl={classListing.imgUrl}
-              /> */}
-            </a>
-          </Link>
-        </div>
-      ))}
+     <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
+     <p><b>Click on each one to learn more.</b></p>
+     <CardFlexGrid>
+      {props.videoChats.map((videoChat) =>(
+          <div key={videoChat.techID}>
+            <PicTitle imgUrl={videoChat.imgUrl}
+                      name={videoChat.name}
+                      id={videoChat.techID}
+            />
+          </div>
+        ))}
+      </CardFlexGrid>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import styled from "styled-components";
 
-const Card =  styled.div`
+const Card =  styled.a`
   background-color: black;
   background-image: url("/images/MainPages/Girl-Holding-World.jpg");
   position: relative;
