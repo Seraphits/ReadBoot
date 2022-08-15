@@ -34,7 +34,6 @@ export default function PicTitle(props) {
         <PicBox>
           <Image src={`${props.imgUrl}`} layout='fill' />
         </PicBox>
-
         <h1>{props.name}</h1>
       </Card>
     </Link>
