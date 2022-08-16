@@ -1,0 +1,20 @@
+[
+  {
+    "techID": "flipgrid",
+    "name": "Flipgrid",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/MultimediaDiscussion/flipgrid-300x296.png",
+    "description": ""
+  },
+  {
+    "techID": "padlet",
+    "name": "Padlet",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/MultimediaDiscussion/Padlet.png",
+    "description": ""
+  },
+  {
+    "techID": "voicethread",
+    "name": "Voicethread",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/VideoChat/microsoft-teams.jpeg",
+    "description": ""
+  }
+]

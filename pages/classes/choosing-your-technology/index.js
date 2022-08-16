@@ -18,23 +18,23 @@ export default function Tech() {
         <a  >Video Chat</a>
       </Link> */}
       <CardFlexGrid>
-        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/MultimediaDiscussion/multimedia-discussion.jpg'
+        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/video chat.jpg'
           name="Video Chat"
           href="/classes/choosing-your-technology/video-chat"
         />
-        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/MultimediaDiscussion/multimedia-discussion.jpg'
+        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/video editing.jpg'
           name="Video Production"
           href="/classes/choosing-your-technology/video-production"
         />
-        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/MultimediaDiscussion/multimedia-discussion.jpg'
+        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/video-sharing.jpg'
           name="Video Sharing"
           href="/classes/choosing-your-technology/video-sharing"
         />
-        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/MultimediaDiscussion/multimedia-discussion.jpg'
+        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/multimedia-discussion.jpg'
           name="Multimedia Discussion"
           href="/classes/choosing-your-technology/multimedia-discussion"
         />
-        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/MultimediaDiscussion/multimedia-discussion.jpg'
+        <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/presentation.jpg'
           name="Presentation"
           href="/classes/choosing-your-technology/presentation"
         />

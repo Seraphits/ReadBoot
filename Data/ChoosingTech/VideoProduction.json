@@ -1,0 +1,19 @@
+[
+  {
+    "techID": "screencast-o-matic",
+    "name": "Screencast-0-Matic",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/VideoProduction/Screencast-O-Matic_icon.png",
+    "description": ""  },
+  {
+    "techID": "Camtasia",
+    "name": "camtasia",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/VideoProduction/camtasia.jpg",
+    "description": ""
+  },
+  {
+    "techID": "loom",
+    "name": "Loom",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/VideoProduction/loom2.jpg",
+    "description": ""
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "techID": "powerpoint",
+    "name": "PowerPoint",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/Presentation/Microsoft-PowerPoint-Logo.png",
+    "description": "Zoom is one of the most popular video-conferencing platforms and with its user-friendly, accessible interface, it is a good choice for your online classes. <br/>Some popular features of Zoom are its Whiteboard, Breakout Rooms, and screen-sharing features.<br/>Anyone can access a Zoom meeting through a link that the organizer sends to their email."
+  },
+  {
+    "techID": "google-slides",
+    "name": "Google Slides",
+    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/Presentation/Google_Slides_logo_(2014-2020).svg.png",
+    "description": "The Google suite of products  contains Google Meet, a wonderful video chatting technology, which integrates well with other tools like Google Jamboard and Google Slides.<br/>Google Meet also allows screen-sharing and includes Breakout Rooms in the paid version. <br/>You and all of  your users must have a gmail account to use this tool and the corresponding suite of useful cloud software that Google has."
+  }
+]

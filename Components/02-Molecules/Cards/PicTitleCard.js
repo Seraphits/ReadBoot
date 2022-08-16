@@ -19,13 +19,13 @@ const PicBox =  styled.div`
 
 export default function PicTitle(props) {
   return (
-    <Link href={`${props.href}`}>
+    <Link href={`${props.href}`}><a>
       <Card>
         <PicBox>
           <Image src={`${props.imgUrl}`} layout='fill' />
         </PicBox>
         <h3>{props.name}</h3>
       </Card>
-    </Link>
+    </a></Link>
   )
 }
