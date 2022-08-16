@@ -21,7 +21,8 @@ export default function MultiMedia(props) {
         <meta name='keywords' content='ReadBoot'/>
       </Head>
      <h1>MultiMedia Discussion</h1>
-     <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
+     <p>One challenge of online classes is that it can sometimes be difficult to give students enough time to speak and opportunities to express themselves in class. As Paolo Friere said, “if the system does not permit dialogue, the system must be changed” and any English teacher knows that for an educational experience to be valuable there must be the opportunity for the students to interact with their teacher and other students. The following tools for facilitating Multimedia Discussion help to overcome this challenge.</p>
+     <p>Also, students may feel comfortable expressing themselves in a variety of different ways, so offering multiple mediums for self-expression, such as text, video, audio, and images, can be helpful and engaging.</p>
      <p><b>Click on each one to learn more.</b></p>
      <CardFlexGrid>
       {props.videoChats.map((videoChat) =>(

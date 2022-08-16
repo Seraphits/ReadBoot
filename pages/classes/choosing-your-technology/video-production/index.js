@@ -21,7 +21,9 @@ export default function VideoProduction(props) {
         <meta name='keywords' content='ReadBoot'/>
       </Head>
      <h1>Video Production</h1>
-     <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
+     <p>One benefit of teaching online is to produce your own instructional videos, which can be used during class or assigned as homework to watch outside of class. There are many wonderful tools to create and edit your own video recordings for your class. This can be an engaging and creative way to present new material to your learners through video. </p>
+     <p>Now a word of caution when creating videos to use in your class. These videos should be short and engaging, with lots of visuals.Please be careful not to just drone on in front of your computer screen and create videos that are a bit too long for the average learner to pay attention to. If you can use music without overpowering the narration or distracting from the subject matter, please do so.  </p>
+     <p>Here are some tools you can explore for making your own videos.</p>
      <p><b>Click on each one to learn more.</b></p>
      <CardFlexGrid>
       {props.videoProductions.map((videoProduction) =>(

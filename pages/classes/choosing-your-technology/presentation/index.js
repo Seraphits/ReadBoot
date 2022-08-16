@@ -21,7 +21,9 @@ export default function presentation(props) {
         <meta name='keywords' content='ReadBoot'/>
       </Head>
      <h1>Presentation</h1>
-     <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
+     <p>One of the key advantages of teaching classes online is that it is very easy to display prepared presentations and multimedia content in the classroom with no fussy AV cables or projectors. By designing and creating their own presentations, teachers can engage their students with relevant and custom-made content and add a visual element to break up the monotony of faces in boxes. These presentations can then be adjusted and re-used in future classes, which reduces the teachers’ class preparation time. </p>
+     <p>We do not recommend, however, simply uploading several presentations to a learning management system and letting your learners work through them on their own. A presentation in an online class really needs to be digested with other kinds of instructional media, and the opportunity for dialogue between teacher and student.</p>
+     <p>Below are some great tools for preparing your own presentations.</p>
      <p><b>Click on each one to learn more.</b></p>
      <CardFlexGrid>
       {props.presentations.map((presentation) =>(

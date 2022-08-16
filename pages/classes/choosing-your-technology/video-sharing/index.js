@@ -20,16 +20,17 @@ export default function VideoSharing(props) {
         <title>Video Sharing</title>
         <meta name='keywords' content='ReadBoot'/>
       </Head>
-     <h1>Video Sharing</h1>
-     <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
-     <p><b>Click on each one to learn more.</b></p>
-     <CardFlexGrid>
-      {props.videoSharings.map((videoSharing) =>(
-          <div key={videoSharing.techID}>
-            <PicTitle imgUrl={videoSharing.imgUrl}
-                      name={videoSharing.name}
-                      id={videoSharing.techID}
-            />
+      <h1>Video Sharing</h1>
+      <p>Once you start making videos for your classes, you’re going to need to be able to share them efficiently. Since mp4 files are large and difficult to share on their own, we recommend using the following sites to host your videos and then sharing a link so that your learners can access them easily.</p>
+      <p>Video-sharing sites like YouTube and Vimeo are also a great place to curate videos that others have created which might be relevant to your classes.</p>
+      <p><b>Click on each one to learn more.</b></p>
+      <CardFlexGrid>
+        {props.videoSharings.map((videoSharing) =>(
+            <div key={videoSharing.techID}>
+              <PicTitle imgUrl={videoSharing.imgUrl}
+                        name={videoSharing.name}
+                        id={videoSharing.techID}
+              />
           </div>
         ))}
       </CardFlexGrid>
