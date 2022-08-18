@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import styled from "styled-components";
 
-const Card =  styled.a`
+const Card =  styled.div`
   background-color: black;
   background-image: url("/images/MainPages/Girl-Holding-World.jpg");
   position: relative;
@@ -55,7 +55,6 @@ const ClassCard = (props) => {
           <Paragraph>{props.description}</Paragraph>
           <Link href='#'><a>Take Class</a></Link>
         </Content>
-
       </Card>
     </Link>
   )

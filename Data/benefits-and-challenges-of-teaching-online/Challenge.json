@@ -3,24 +3,24 @@
     "techID": "boredom",
     "name": "Boredom",
     "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/Presentation/Microsoft-PowerPoint-Logo.png",
-    "shortDescription":"",
-    "header":"",
-    "description": ""
+    "shortDescription":".",
+    "header":".",
+    "description": "."
   },
   {
     "techID": "body-language",
     "name": "Body Language",
     "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/Presentation/Google_Slides_logo_(2014-2020).svg.png",
     "shortDescription":".",
-    "header":"",
+    "header":".",
     "description": ""
   },
   {
     "techID": "communication",
     "name": "Communication",
     "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/Presentation/Google_Slides_logo_(2014-2020).svg.png",
-    "shortDescription":"",
-    "header":"",
-    "description": ""
+    "shortDescription":".",
+    "header":".",
+    "description": "."
   }
 ]

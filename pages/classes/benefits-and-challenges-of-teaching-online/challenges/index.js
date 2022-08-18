@@ -23,7 +23,7 @@ export default function challenge(props) {
      <h1>challenge</h1>
      <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
      <p><b>Click on each one to learn more.</b></p>
-     <CardFlexGrid>
+     {/* <CardFlexGrid>
       {props.challenges.map((challenge) =>(
           <div key={challenge.techID}>
             <PicTitle imgUrl={challenge.imgUrl}
@@ -33,6 +33,6 @@ export default function challenge(props) {
           </div>
         ))}
       </CardFlexGrid>
-    </div>
+    </div> */}
   )
 }

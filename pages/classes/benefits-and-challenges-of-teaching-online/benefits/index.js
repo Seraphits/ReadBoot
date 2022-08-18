@@ -1,19 +1,3 @@
-// import Head from 'next/head'
-// import Link from 'next/link';
-
-
-
-// export default function Benefits() {
-//   return (
-//     <div >
-//       <Head>
-//         <title>Benefits</title>
-//         <meta name='keywords' content='ReadBoot'/>
-//       </Head>
-//      <h1>Benefits</h1>
-//     </div>
-//   )
-// }
 import Head from 'next/head';
 import Link from 'next/link';
 import benefitsData from '../../../../Data/benefits-and-challenges-of-teaching-online/Benefits.json';
@@ -39,7 +23,7 @@ export default function benefits(props) {
      <h1>benefits</h1>
      <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
      <p><b>Click on each one to learn more.</b></p>
-     <CardFlexGrid>
+     {/* <CardFlexGrid>
       {props.benefitss.map((benefits) =>(
           <div key={benefits.techID}>
             <PicTitle imgUrl={benefits.imgUrl}
@@ -48,7 +32,7 @@ export default function benefits(props) {
             />
           </div>
         ))}
-      </CardFlexGrid>
+      </CardFlexGrid> */}
     </div>
   )
 }
