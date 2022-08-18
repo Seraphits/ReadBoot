@@ -32,7 +32,7 @@ export default function challenge(props) {
             />
           </div>
         ))}
-      </CardFlexGrid>
-    </div> */}
+      </CardFlexGrid> */}
+    </div>
   )
 }

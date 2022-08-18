@@ -11,7 +11,7 @@ export default function BCTO() {
       <header>
         <h1>Benefits and Challenges of Teaching Online</h1>
       </header>
-      {/* <main>
+      <main>
         <div>
           <h2>Teaching online can be rewarding and fun!</h2>
           <p>It allows people to learn from the comfort of their own homes and connect with other people on a language learning journey all around the world. It also allows the instructor to reach learners through many different mediums, such as</p>
@@ -34,12 +34,12 @@ export default function BCTO() {
           <p>In this course, we will help you to overcome some of the common obstacles encountered in online classes.</p>
         </div>
         <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-l5KcasL7-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/-l5KcasL7-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
           <p>Watch the video for more information. </p>
         </div>
-      </main> */}
+      </main>
       <div>
-        {/* <Link href='/classes/benefits-and-challenges-of-teaching-online/benefits'>
+        <Link href='/classes/benefits-and-challenges-of-teaching-online/benefits'>
           <a>
             <h2>Benefits</h2>
             <p>Of Online Classes</p>
@@ -50,7 +50,7 @@ export default function BCTO() {
             <h2>Challenges</h2>
             <p>Of Online Classes</p>
           </a>
-        </Link> */}
+        </Link>
       </div>
     </div>
   )
