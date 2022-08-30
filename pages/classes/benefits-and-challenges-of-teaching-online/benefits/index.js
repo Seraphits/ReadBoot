@@ -26,7 +26,7 @@ export default function benefits(props) {
      {/* <CardFlexGrid>
       {props.benefitss.map((benefits) =>(
           <div key={benefits.techID}>
-            <PicTitle imgUrl={benefits.imgUrl}
+            <PicTitle imgUrl={`benefits-and-challenges-of-teaching-online/${benefits.imgUrl}`}
                       name={benefits.name}
                       id={benefits.techID}
             />
