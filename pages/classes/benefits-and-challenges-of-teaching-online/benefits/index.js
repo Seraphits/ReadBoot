@@ -5,7 +5,7 @@ import { getAllBenfits } from "@/Data/benefits-and-challenges-of-teaching-online
 // import Image from "next/image";
 import Head from "next/head";
 
-const Benefits = () => {
+const Benefits = (props) => {
   const cards = getAllBenfits();
 
   return (
@@ -25,6 +25,7 @@ const Benefits = () => {
       </p>
       <Grid3>
          {cards.map((card) => (
+
           <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} />
         ))}
       </Grid3>
