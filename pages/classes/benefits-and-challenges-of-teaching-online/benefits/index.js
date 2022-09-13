@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Grid3 } from "@/Templetes/grids";
-import PicTitle from "@/Molecules/Cards/PicTitleCard";
-import { getAllBenfits } from "@/Data/benefits-and-challenges-of-teaching-online/Benefits";
-import Image from "next/image";
+// import { Grid3 } from "@/Templetes/grids";
+// import PicTitle from "@/Molecules/Cards/PicTitleCard";
+// import { getAllBenfits } from "@/Data/benefits-and-challenges-of-teaching-online/Benefits";
+// import Image from "next/image";
 import Head from "next/head";
 
 const Benefits = () => {
