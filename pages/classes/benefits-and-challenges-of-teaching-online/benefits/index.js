@@ -26,8 +26,8 @@ const Benefits = (props) => {
       </p>
       <Grid3>
          {cards.map((card) => (
-         <div key={card.ID} >{card.name} - {card.imgUrl} </div>
-        //  <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} />
+        //  <div key={card.ID} >{card.name} - {card.imgUrl} </div>
+         <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} />
         ))}
       </Grid3>
     </div>
