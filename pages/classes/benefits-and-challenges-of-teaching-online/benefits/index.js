@@ -14,7 +14,7 @@ const Benefits = () => {
       <Head>
         <title>Benefits and Challenges of Teaching Online</title>
         <meta name="keywords" content="ReadBoot" />
-      </Head>{" "}
+      </Head>
       <h1>benefits</h1>
       <p>
         These technologies will allow you to provide face-to-face instruction to

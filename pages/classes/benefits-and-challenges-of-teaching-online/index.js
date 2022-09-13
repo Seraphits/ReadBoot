@@ -2,7 +2,6 @@ import { Grid2 } from '@/Templetes/grids';
 import Head from 'next/head'
 import Link from 'next/link';
 import styled, { css } from 'styled-components';
-import Benefits from './benefits';
 
 export default function BCTO() {
   return (
