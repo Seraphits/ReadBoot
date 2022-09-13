@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Grid3 } from "@/Templetes/grids";
 import PicTitle from "@/Molecules/Cards/PicTitleCard";
-// import { getAllBenfits } from "@/Data/benefits-and-challenges-of-teaching-online/Benefits";
+import { getAllBenfits } from "@/Data/benefits-and-challenges-of-teaching-online/Benefits";
 // import Image from "next/image";
 import Head from "next/head";
 
 const Benefits = () => {
-  // const cards = getAllBenfits();
+  const cards = getAllBenfits();
 
   return (
     <div>
@@ -24,9 +24,9 @@ const Benefits = () => {
         <b>Click on each one to learn more.</b>
       </p>
       <Grid3>
-         {/* {cards.map((card) => (
+         {cards.map((card) => (
           <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} />
-        ))} */}
+        ))}
       </Grid3>
     </div>
   );
