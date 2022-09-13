@@ -6,8 +6,7 @@ import Image from "next/image";
 import Head from "next/head";
 
 const Benefits = () => {
-  const benfits = getAllBenfits();
-  const [cards, setCards] = useState(benfits);
+  // const cards = getAllBenfits();
 
   return (
     <div>
@@ -16,7 +15,7 @@ const Benefits = () => {
         <meta name="keywords" content="ReadBoot" />
       </Head>
       <h1>benefits</h1>
-      <p>
+      {/* <p>
         These technologies will allow you to provide face-to-face instruction to
         your learners and simulate a classroom setting. Different applications
         will include different affordances and constraints for instruction.
@@ -25,10 +24,10 @@ const Benefits = () => {
         <b>Click on each one to learn more.</b>
       </p>
       <Grid3>
-        {/* {cards.map((card) => (
+         {cards.map((card) => (
           <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} />
-        ))} */}
-      </Grid3>
+        ))}
+      </Grid3> */}
     </div>
   );
 };
