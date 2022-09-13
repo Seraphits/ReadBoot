@@ -1,6 +1,6 @@
 import Head from 'next/head';
 // import Link from 'next/link';
-import ChallengesData from '/Data/benefits-and-challenges-of-teaching-online/Challenge.json';
+import ChallengesData from '/Data/benefits-and-challenges-of-teaching-online/Challenges.json';
 import PicTitle from "@/Molecules/Cards/PicTitleCard";
 import { Grid3 } from '@/Templetes/grids';
 
