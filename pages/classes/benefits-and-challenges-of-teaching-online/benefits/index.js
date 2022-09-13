@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Grid3 } from "@/Templetes/grids";
 import PicTitle from "@/Molecules/Cards/PicTitleCard";
-import { getAllBenfits } from "Data/benefits-and-challenges-of-teaching-online/Benefits";
 import BenefitsData from "Data/benefits-and-challenges-of-teaching-online/Benefits.json";
 // import Image from "next/image";
 import Head from "next/head";

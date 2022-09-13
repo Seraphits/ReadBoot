@@ -1,26 +1,29 @@
 [
   {
-    "techID": "boredom",
+    "ID": "boredom",
     "name": "Boredom",
-    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/Presentation/Microsoft-PowerPoint-Logo.png",
-    "shortDescription":".",
-    "header":".",
-    "description": "."
+    "imgUrl": "/images/Classes/Build/BenefitsAndChallengesOfOnlineTeaching/low-motivation.jpg",
+    "shortDescription":"Students motivation and engagement can be low",
+    "header":"Boredom",
+    "description": "Foregin language learning teachers report that lack of student engagement is one of the most common challenges when teaching online classes. Please consider how to make your online teaching methods more interesting and fun!",
+    "video": "https://youtu.be/YRlPZMv_Dgs"
   },
   {
-    "techID": "body-language",
+    "ID": "body-language",
     "name": "Body Language",
-    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/Presentation/Google_Slides_logo_(2014-2020).svg.png",
-    "shortDescription":".",
-    "header":".",
-    "description": ""
+    "imgUrl": "/images/Classes/Build/BenefitsAndChallengesOfOnlineTeaching/body-language.jpg",
+    "shortDescription":"Without body language, it can be more difficult for students and teachers to read each other’s mood and build rapport",
+    "header":"Body Language",
+    "description": "It can be harder to see what your students are thinking or feeling when teaching online. Unless you do a video chat session where everyone has their camera on, this is impossible to tell. Even then, it can be harder to perceive a student's body language on a video chat call than when standing up in front of a class.",
+    "video": "https://youtu.be/uOOladkDfO4"
   },
   {
-    "techID": "communication",
+    "ID": "communication",
     "name": "Communication",
-    "imgUrl": "/images/Classes/Build/ChoosingYourTechnology/Presentation/Google_Slides_logo_(2014-2020).svg.png",
+    "imgUrl": "/images/Classes/Build/BenefitsAndChallengesOfOnlineTeaching/talking.jpg",
     "shortDescription":".",
     "header":".",
-    "description": "."
+    "description": ".",
+    "video": ""
   }
 ]

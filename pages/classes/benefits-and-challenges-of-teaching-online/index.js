@@ -50,12 +50,12 @@ export default function BCTO() {
           </Link>
         </BenefitsBox>
         <ChallengesBox>
-          {/* <Link href='/classes/benefits-and-challenges-of-teaching-online/challenges'> */}
+          <Link href='/classes/benefits-and-challenges-of-teaching-online/challenges'>
             <a>
               <h2>Challenges</h2>
               <p>Of Online Classes</p>
             </a>
-          {/* </Link> */}
+          </Link>
         </ChallengesBox>
       </Grid2>
     </div>
