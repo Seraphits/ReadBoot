@@ -26,14 +26,14 @@ export default function presentation(props) {
      <p>Below are some great tools for preparing your own presentations.</p>
      <p><b>Click on each one to learn more.</b></p>
      <CardFlexGrid>
-      {props.presentations.map((presentation) =>(
+      {/* {props.presentations.map((presentation) =>(
           <div key={presentation.techID}>
             <PicTitle imgUrl={presentation.imgUrl}
                       name={presentation.name}
                       id={presentation.techID}
             />
           </div>
-        ))}
+        ))} */}
       </CardFlexGrid>
     </div>
   )

@@ -25,14 +25,14 @@ export default function MultiMedia(props) {
      <p>Also, students may feel comfortable expressing themselves in a variety of different ways, so offering multiple mediums for self-expression, such as text, video, audio, and images, can be helpful and engaging.</p>
      <p><b>Click on each one to learn more.</b></p>
      <CardFlexGrid>
-      {props.videoChats.map((videoChat) =>(
+      {/* {props.videoChats.map((videoChat) =>(
           <div key={videoChat.techID}>
             <PicTitle imgUrl={videoChat.imgUrl}
                       name={videoChat.name}
                       id={videoChat.techID}
             />
           </div>
-        ))}
+        ))} */}
       </CardFlexGrid>
     </div>
   )

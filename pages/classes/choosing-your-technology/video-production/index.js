@@ -26,14 +26,14 @@ export default function VideoProduction(props) {
      <p>Here are some tools you can explore for making your own videos.</p>
      <p><b>Click on each one to learn more.</b></p>
      <CardFlexGrid>
-      {props.videoProductions.map((videoProduction) =>(
+      {/* {props.videoProductions.map((videoProduction) =>(
           <div key={videoProduction.techID}>
             <PicTitle imgUrl={videoProduction.imgUrl}
                       name={videoProduction.name}
                       id={videoProduction.techID}
             />
           </div>
-        ))}
+        ))} */}
       </CardFlexGrid>
     </div>
   )

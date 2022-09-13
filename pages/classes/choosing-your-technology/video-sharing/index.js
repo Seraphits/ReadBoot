@@ -25,14 +25,14 @@ export default function VideoSharing(props) {
       <p>Video-sharing sites like YouTube and Vimeo are also a great place to curate videos that others have created which might be relevant to your classes.</p>
       <p><b>Click on each one to learn more.</b></p>
       <CardFlexGrid>
-        {props.videoSharings.map((videoSharing) =>(
+        {/* {props.videoSharings.map((videoSharing) =>(
             <div key={videoSharing.techID}>
               <PicTitle imgUrl={videoSharing.imgUrl}
                         name={videoSharing.name}
                         id={videoSharing.techID}
               />
           </div>
-        ))}
+        ))} */}
       </CardFlexGrid>
     </div>
   )
