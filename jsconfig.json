@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/Data/*": ["data/*"],
+      "@/Molecules/*": ["Components/02-Molecules/*"],
+      "@/Templetes/*": ["Components/04-Templetes/*"]
+    }
+  }
+}

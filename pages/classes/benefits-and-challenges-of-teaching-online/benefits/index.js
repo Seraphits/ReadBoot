@@ -1,38 +1,38 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import benefitsData from '../../../../Data/benefits-and-challenges-of-teaching-online/Benefits.json';
-import PicTitle from '../../../../Components/02-Molecules/Cards/PicTitleCard';
-import { CardFlexGrid } from '../../../../Components/04-Templetes/flex';
+import React, { useState } from "react";
+import { Grid3 } from "@/Templetes/grids";
+import PicTitle from "@/Molecules/Cards/PicTitleCard";
+import { getAllBenfits } from "@/Data/benefits-and-challenges-of-teaching-online/Benefits";
+import Image from "next/image";
+import Head from "next/head";
 
-export async function getStaticProps(context) {
-  console.log("getStaticProps runs here");
-  return {
-    props: {
-      benefitss: benefitsData,
-    }, // will be passed to the page component as props
-  }
-}
+const Benefits = () => {
+  const benfits = getAllBenfits();
+  const [cards, setCards] = useState(benfits);
 
-export default function benefits(props) {
   return (
-    <div >
+    <div>
       <Head>
-        <title>benefits</title>
-        <meta name='keywords' content='ReadBoot'/>
-      </Head>
-     <h1>benefits</h1>
-     <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
-     <p><b>Click on each one to learn more.</b></p>
-     {/* <CardFlexGrid>
-      {props.benefitss.map((benefits) =>(
-          <div key={benefits.techID}>
-            <PicTitle imgUrl={`benefits-and-challenges-of-teaching-online/${benefits.imgUrl}`}
-                      name={benefits.name}
-                      id={benefits.techID}
-            />
-          </div>
+        <title>Benefits and Challenges of Teaching Online</title>
+        <meta name="keywords" content="ReadBoot" />
+      </Head>{" "}
+      <h1>benefits</h1>
+      <p>
+        These technologies will allow you to provide face-to-face instruction to
+        your learners and simulate a classroom setting. Different applications
+        will include different affordances and constraints for instruction.
+      </p>
+      <p>
+        <b>Click on each one to learn more.</b>
+      </p>
+      <Grid3>
+        {cards.map((card) => (
+          <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} />
         ))}
-      </CardFlexGrid> */}
+      </Grid3>
     </div>
-  )
-}
+  );
+};
+
+export default Benefits;
+
+

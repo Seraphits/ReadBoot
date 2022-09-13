@@ -39,10 +39,25 @@ export const Grid3 = styled.div`
   /* background-color: blueviolet; */
   }
 `
+export const Grid2 = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  justify-items: center;
+  /* background-color: aquamarine; */
+  /* div {
+    background-color: blueviolet;
+  } */
+  @media only screen and (max-width: 500px) {
+    grid-template-columns: 1fr ;
+  /* background-color: khaki; */
+  }
+  `
 
 export const GridAutoFill = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 2rem;
   background-color: blue;
   padding: 2rem;
