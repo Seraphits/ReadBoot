@@ -8,7 +8,7 @@ export default function PicTitle(props) {
     // <Link href={`${props.href}`}><a>
       <Card>
         <PicBox>
-          <Image src={`${props.imgUrl}`} layout='fill' objectFit='cover' />
+          {/* <Image src={`${props.imgUrl}`} layout='fill' objectFit='cover' /> */}
         </PicBox>
         <h3>{props.title}</h3>
       </Card>
@@ -19,7 +19,6 @@ export default function PicTitle(props) {
 const Card =  styled.div`
   /* background-color: red; */
   background-color: white;
-  ${'' /* display: flex; */}
   margin: 2rem;
   width: 100%;
   box-shadow: 0 30px 30px rgba(0,0,0,0.5);
