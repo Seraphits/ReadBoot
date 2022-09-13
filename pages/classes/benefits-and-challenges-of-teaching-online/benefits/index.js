@@ -25,9 +25,9 @@ const Benefits = () => {
         <b>Click on each one to learn more.</b>
       </p>
       <Grid3>
-        {cards.map((card) => (
+        {/* {cards.map((card) => (
           <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} />
-        ))}
+        ))} */}
       </Grid3>
     </div>
   );
