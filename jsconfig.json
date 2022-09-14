@@ -3,6 +3,7 @@
     "baseUrl": ".",
     "paths": {
       "@/Data/*": ["data/*"],
+      "@/Atoms/*": ["Components/01-Atoms/*"],
       "@/Molecules/*": ["Components/02-Molecules/*"],
       "@/Templetes/*": ["Components/04-Templetes/*"]
     }

@@ -3,7 +3,7 @@ import ClassesTypeButtons from '../../Components/02-Molecules/ButonSets/ClassTyp
 import { CardFlexGrid } from '../../Components/04-Templetes/flex';
 import ClassCard from '../../Components/02-Molecules/Cards/ClassCards'
 import classListingsData from '../../Data/ClassListings.json'
-import styles from '../../Components/05-Page/Classes/Classes.module.scss'
+import { Wrapper } from 'Components/00-Base/_utilities';
 
 export async function getStaticProps(context) {
   console.log("getStaticProps runs here");
@@ -21,25 +21,25 @@ export default function Classes(props) {
         <title>Classes</title>
         <meta name='keywords' content='ReadBoot'/>
       </Head>
-      <div className={styles.Wrapper__Article}>
-      <header>
-        <h1>Classes</h1>
-        <ClassesTypeButtons/>
-      </header>
-      <h2>All Classes</h2>
-      <CardFlexGrid>
-      {props.classListings.map((classListing) =>(
-            <div key={classListing.classID}>
-            <ClassCard name={classListing.name}
-                    classID={classListing.classID}
-                    department={classListing.department}
-                    description={classListing.description}
-                    imgUrl={classListing.imgUrl}
-              />
-        </div>
-          ))}
-      </CardFlexGrid>
-      </div>
+      <Wrapper>
+        <header>
+          <h1>Classes</h1>
+          <ClassesTypeButtons/>
+        </header>
+        <h2>All Classes</h2>
+        <CardFlexGrid>
+        {props.classListings.map((classListing) =>(
+              <div key={classListing.classID}>
+              <ClassCard name={classListing.name}
+                      classID={classListing.classID}
+                      department={classListing.department}
+                      description={classListing.description}
+                      imgUrl={classListing.imgUrl}
+                />
+          </div>
+            ))}
+        </CardFlexGrid>
+      </Wrapper>
     </div>
   )
 }

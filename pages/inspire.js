@@ -1,3 +1,4 @@
+import ClassesTypeButtons from '@/Molecules/ButonSets/ClassType';
 import Head from 'next/head'
 import Link from 'next/link';
 
@@ -10,7 +11,11 @@ export default function Inspire() {
         <title>Imagine</title>
         <meta name='keywords' content='ReadBoot'/>
       </Head>
-     <h1>Imagine</h1>
+      <header>
+        <h1>Classes</h1>
+        <ClassesTypeButtons/>
+      </header>
+     <h1>Inspire</h1>
     </div>
   )
 }
