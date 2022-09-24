@@ -23,7 +23,7 @@ export default function VideoChat(props) {
      <h1>VideoChat</h1>
      <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
      <p><b>Click on each one to learn more.</b></p>
-     <CardFlexGrid>
+     {/* <CardFlexGrid> */}
       {/* {props.videoChats.map((videoChat) =>(
           <div key={videoChat.techID}>
             <PicTitle imgUrl={videoChat.imgUrl}
