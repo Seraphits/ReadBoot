@@ -3,6 +3,7 @@ import Link from 'next/link';
 import videoChatData from '../../../../Data/ChoosingTech/VideoChat.json';
 import PicTitle from '../../../../Components/02-Molecules/Cards/PicTitleCard';
 import { CardFlexGrid } from '../../../../Components/04-Templetes/flex';
+import { Grid3 } from '@/Templetes/grids';
 
 export async function getStaticProps(context) {
   console.log("getStaticProps runs here");
@@ -23,16 +24,18 @@ export default function VideoChat(props) {
      <h1>VideoChat</h1>
      <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
      <p><b>Click on each one to learn more.</b></p>
-     {/* <CardFlexGrid> */}
-      {/* {props.videoChats.map((videoChat) =>(
-          <div key={videoChat.techID}>
+     <Grid3>
+       {props.videoChats.map((videoChat) =>(
+          // <div >
             <PicTitle imgUrl={videoChat.imgUrl}
-                      name={videoChat.name}
+                      title={videoChat.name}
                       id={videoChat.techID}
+                      link={`/classes/choosing-your-technology/video-chat/${videoChat.techID}`}
+                      key={videoChat.techID}
             />
-          </div>
+          // </div>
         ))}
-      </CardFlexGrid> */}
+      </Grid3>
     </div>
   )
 }
