@@ -1,0 +1,58 @@
+[
+  {
+    "ID": "be-prepared",
+    "name": "Be Prepared",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "While it is a general rule-of-thumb to always be prepared whenever you enter the classroom, this is even more true when teaching online. In the traditional classroom it is often possible to improvise and use the energy in the room to keep things engaging, but this is much more difficult to achieve in online classes. For that reason, we recommend always preparing something extra, in case an activity doesn’t work or takes less time than expected. Online videos and quick games can be a great way to expand on lessons that you’ve already created, and anything that you don’t use can always be re-used in future classes.",
+    "video": ""
+  },
+  {
+    "ID": "be-flexible",
+    "name": "Be Flexible",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "These days, everybody is leading busy lives and often juggling various responsibilities of work, school, and family. It is important that you be flexible with your online students, especially since there are many factors, such as connectivity issues, that are out of everyone’s control. In order to be able to accommodate students’ needs, it is recommended that you develop an avenue of communication separate from the class itself, such as email or WhatsApp, so that unexpected changes can be communicated easily and no one ends up waiting around for a class that doesn’t happen. If you find yourself getting frustrated by unexpected circumstances, just breathe, laugh, and remind yourself that life is complicated. This will put both you and your students at ease and make the relationship smoother.",
+    "video": ""
+  },
+  {
+    "ID": "be-creative",
+    "name": "Be Creative",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "While teaching online is certainly challenging, it also creates a wonderful opportunity to try new things and you might find that you learn as much as your students do from the experience. Don’t be afraid to share your interests and passions with your students, and take the time to find out what interests them and what they are passionate about. Shared interests can bring you closer together and help to develop a rapport between you and your students. Also, take advantage of the novelty of online learning to explore new ideas. Costumes, art projects, and music or dance related activities can make your online classes more fun and engaging. Don’t be afraid to be weird! Everyone enjoys the opportunity to express themselves creatively.",
+    "video": ""
+  },
+  {
+    "ID": "be-respectful",
+    "name": "Be respectful",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "When you are teaching online, you are meeting your students in the most sacred of spaces: their home. Remember to be as respectful when teaching your students online as you would be if you were meeting them face-to-face in their own homes. Some students may enjoy showing and sharing their living spaces during an online class, others may not. It is important to get to know your students and respect their boundaries and preferences.",
+    "video": ""
+  },
+  {
+    "ID": "be-in-touch",
+    "name": "Be In Touch",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "Because life so often happens when you least expect it, it is important to have a means of communicating with your students outside of class. While in the traditional classroom some students may stay after to ask questions, or interact directly with their teacher, your email inbox or text messages will fulfill this function in online classes. Work with your students to establish a line of communication outside of class, either through email, text, or a WhatsApp group, so you can communicate last-minute scheduling changes, clarify assignments, or check in if needed. Just be sure to establish boundaries for communication outside of class.",
+    "video": ""
+  },
+  {
+    "ID": "get-active",
+    "name": "Get Active!",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "Sitting in front of a computer for an extended period of time isn’t good for your mental or physical health, and many of your online students may have jobs where they already spend a lot of time sitting in front of a screen. Try to incorporate activity and movement into your online classes as much as possible. Remember: anything can be turned into a valuable opportunity to learn English, so try mixing it up by doing some yoga, zumba, or simple stretching with your students. Even a scavenger hunt to find things around the house could be a fun opportunity for your students to stretch their legs and learn something at the same time.",
+    "video": ""
+  }
+
+
+]

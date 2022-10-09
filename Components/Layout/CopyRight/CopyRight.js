@@ -1,12 +1,9 @@
-import Head from 'next/head'
+
 import Link from 'next/link';
 import styled from 'styled-components';
 
 const Card = styled.div`
-  background-color: black;
-  color: white;
-  padding: 1rem 3rem;
-
+  text-align: center;
 `
 
 export default function CopyRight() {

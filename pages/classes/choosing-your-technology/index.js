@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Link from 'next/link';
 import PicTitle from '../../../Components/02-Molecules/Cards/PicTitleCard';
-import { CardFlexGrid } from '../../../Components/04-Templetes/flex';
+import { CardFlexGrid } from '@/Templetes/flex';
+import { Grid3 } from '@/Templetes/grids';
 
 
 
@@ -17,28 +18,28 @@ export default function Tech() {
      {/* <Link href="/classes/choosing-your-technology/video-chat">
         <a  >Video Chat</a>
       </Link> */}
-      <CardFlexGrid>
+      <Grid3>
         <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/video chat.jpg'
-          name="Video Chat"
-          href="/classes/choosing-your-technology/video-chat"
+          title="Video Chat"
+          link="/classes/choosing-your-technology/video-chat"
         />
         <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/video editing.jpg'
-          name="Video Production"
-          href="/classes/choosing-your-technology/video-production"
+          title="Video Production"
+          link="/classes/choosing-your-technology/video-production"
         />
         <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/video-sharing.jpg'
-          name="Video Sharing"
-          href="/classes/choosing-your-technology/video-sharing"
+          title="Video Sharing"
+          link="/classes/choosing-your-technology/video-sharing"
         />
         <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/multimedia-discussion.jpg'
-          name="Multimedia Discussion"
-          href="/classes/choosing-your-technology/multimedia-discussion"
+          title="Multimedia Discussion"
+          link="/classes/choosing-your-technology/multimedia-discussion"
         />
         <PicTitle imgUrl='/images/Classes/Build/ChoosingYourTechnology/presentation.jpg'
-          name="Presentation"
-          href="/classes/choosing-your-technology/presentation"
+          title="Presentation"
+          link="/classes/choosing-your-technology/presentation"
         />
-      </CardFlexGrid>
+      </Grid3>
     </div>
   )
 }

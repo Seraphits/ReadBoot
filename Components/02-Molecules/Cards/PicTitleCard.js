@@ -1,18 +1,18 @@
-// import Link from 'next/link';
+import Link from 'next/link';
 import Image from 'next/image';
 import styled from 'styled-components';
 
 
 export default function PicTitle(props) {
   return (
-    // <Link href={`${props.href}`}><a>
+    <Link href={props.link}>
       <Card>
         <PicBox>
           <Image src={`${props.imgUrl}`} layout='fill' objectFit='cover' />
         </PicBox>
         <h3>{props.title}</h3>
       </Card>
-    // </a></Link>
+    </Link>
   )
 }
 

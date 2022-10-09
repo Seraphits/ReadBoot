@@ -17,21 +17,9 @@ export default function challenge(props) {
      <h1>challenge</h1>
      <p>These technologies will allow you to provide face-to-face instruction to your learners and simulate a classroom setting. Different applications will include different affordances and constraints for instruction.</p>
      <p><b>Click on each one to learn more.</b></p>
-     {/* <CardFlexGrid>
-      {props.challenges.map((challenge) =>(
-          <div key={challenge.techID}>
-            <PicTitle imgUrl={`benefits-and-challenges-of-teaching-online/${challenge.imgUrl}`}
-                      name={challenge.name}
-                      id={challenge.techID}
-                      // href={challenge.techID}
-            />
-          </div>
-        ))}
-      </CardFlexGrid> */}
          <Grid3>
          {cards.map((card) => (
-        //  <div key={card.ID} >{card.name} - {card.imgUrl} </div>
-         <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} />
+         <PicTitle key={card.ID} title={card.name} imgUrl={card.imgUrl} link='#'/>
         ))}
       </Grid3>
     </div>

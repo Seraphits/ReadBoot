@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import ClassesTypeButtons from '../../Components/02-Molecules/ButonSets/ClassType';
-import { CardFlexGrid } from '../../Components/04-Templetes/flex';
+import { CardFlexGrid } from '@/Templetes/flex';
 import ClassCard from '../../Components/02-Molecules/Cards/ClassCards'
 import classListingsData from '../../Data/ClassListings.json'
 import { Wrapper } from 'Components/00-Base/_utilities';
@@ -35,6 +35,7 @@ export default function Classes(props) {
                       department={classListing.department}
                       description={classListing.description}
                       imgUrl={classListing.imgUrl}
+                      link={`/classes/${classListing.classID}`}
                 />
           </div>
             ))}

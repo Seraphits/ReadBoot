@@ -1,0 +1,62 @@
+[
+  {
+    "ID": "seo-yoon",
+    "name": "Seo-Yoon",
+    "type": "TESOL",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "Seo-yoon is a middle school teacher and single mother living in Seoul, South Korea. She enjoys yoga, nature, and playing with her daughter. She needs to improve her English to get promoted at work, but cannot travel because of her job and her family. She is very busy and can only join the online class at 3a.m. her time, which is 8a.m. in Hawai’i. Her English level is B1+ and she needs to reach B2 to be able to teach English at her school. She is a very dedicated student, but family responsibilities mean she is not always available for class and because of the time difference she is often very tired during the lesson.",
+    "video": ""
+  },
+  {
+    "ID": "valentina",
+    "name": "Valentina",
+    "type": "TESOL",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "Valentina is a 22-year old Psychology student from Barranquilla, on the Caribbean coast of Colombia. She wants to improve her English to be eligible to participate in the Au Pair program in the USA. Currently her English level is A2, but she needs to reach B1 to perform well in her interview. She cannot come to study in the USA because of visa restrictions, plus the trip is prohibitively expensive for a young, Colombian student. She is very enthusiastic and energetic, but cannot always attend the classes because she works nights as a waitress and her schedule often changes. Also, because the Internet is unreliable where she lives she frequently experiences connectivity issues during class.",
+    "video": ""
+  },
+  {
+    "ID": "hector",
+    "name": "Hector",
+    "type": "TESOL",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "Hector is a Key Account Manager for one of the largest telecom companies in Latin America. He lives in Mexico City, but he is being promoted to a position where he will have to  travel often to the US on business trips, where he will need to  facilitate meetings and give presentations in English. His English level is B2, but he wants to develop the confidence to speak in front of groups of clients and stakeholders. He would like to learn a mix of formal business English, and more informal conversation for “water-cooler talk.” He would also like to learn more about American business culture and improve his pronunciation.",
+    "video": ""
+  },
+  {
+    "ID": "amadou",
+    "name": "Amadou",
+    "type": "TESOL",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "Amadou is a cardiologist from Dakar, Senegal. Three years ago, his wife, Mariama, was diagnosed with a rare form of cardiomyopathy. Amadou and his team have developed an experimental treatment which has shown promising results. He is scheduled to give a lecture on their findings at Johns Hopkins University in Baltimore next year, but he needs to improve his English before he can confidently deliver the talk. Right now, his English level is B2, but he would like to reach C1 before giving the lecture. Because Amadou and Mariama had their honeymoon in Hawaii, he feels it would be good luck to study at a language school in Hawaii. However, his wife’s condition and the ongoing research into treatments make travel impossible at this time, so Amadou will be taking classes online. Due to his long work hours and caring for his wife, Amadou may not always be able to attend the scheduled lessons.",
+    "video": ""
+  },
+  {
+    "ID": "maria",
+    "name": "Maria",
+    "type": "TESOL",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "Maria is a fourth-year law student from Milan, in Northern Italy. She studied at IIE last summer and was nominated “Student-of-the-Month,” which means she can receive a free week of classes. However, because of her studies she is not able to travel, and would like to take her free week of classes online. Her English level is C1, but she is preparing to take the Cambridge CAE exam and needs help preparing. Also, she  is hoping to work in International Trade Law, so she would like to learn a lot of legal terms and Business English.",
+    "video": ""
+  },
+  {
+    "ID": "nhu ai",
+    "name": "Nhu Ai",
+    "type": "TESOL",
+    "imgUrl": "",
+    "shortDescription": "",
+    "header":"",
+    "description": "Nhu Ai is a high school senior from Ha Noi, Vietnam. She loves dancing hula and learning about the culture and traditions of Hawaii. She is planning to study at Kapiolani Community College next year, using IIE’s Rainbow Pathways program, but she cannot attend in-person classes because she still has to finish high school. Currently her English level is B1, but she will need to reach B1+ to be admitted into the Rainbow Bridge College Pathways Program. Also, she will need to prepare to take a TOEFL exam next year in order to be admitted into KCC.",
+    "video": ""
+  }
+]

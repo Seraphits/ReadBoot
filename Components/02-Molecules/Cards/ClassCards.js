@@ -47,13 +47,13 @@ const Content = styled.div`
 // This will not work with Styled component because of the hovers. will have to do in SCSS.
 const ClassCard = (props) => {
   return (
-    <Link href={`/classes/${props.classID}`}>
+    <Link href={props.link}>
       <Card>
         <Image src={props.imgUrl} alt="Image" layout='fill'/>
         <Content>
           <Heading3>{props.name}</Heading3>
           <Paragraph>{props.description}</Paragraph>
-          <Link href='#'><a>Take Class</a></Link>
+          Take Class
         </Content>
       </Card>
     </Link>
