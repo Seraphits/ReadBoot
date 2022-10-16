@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import videoChatData from '../../../../Data/ChoosingTech/VideoChat.json';
+import videoChatData from '@/Data/ChoosingTech/VideoChat.json';
 import PicTitle from '../../../../Components/02-Molecules/Cards/PicTitleCard';
 import { CardFlexGrid } from '../../../../Components/04-Templetes/flex';
 import { Grid3 } from '@/Templetes/grids';
@@ -26,14 +26,12 @@ export default function VideoChat(props) {
      <p><b>Click on each one to learn more.</b></p>
      <Grid3>
        {props.videoChats.map((videoChat) =>(
-          // <div >
             <PicTitle imgUrl={videoChat.imgUrl}
                       title={videoChat.name}
                       id={videoChat.techID}
                       link={`/classes/choosing-your-technology/video-chat/${videoChat.techID}`}
                       key={videoChat.techID}
             />
-          // </div>
         ))}
       </Grid3>
     </div>
