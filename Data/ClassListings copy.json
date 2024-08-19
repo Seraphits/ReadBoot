@@ -1,0 +1,43 @@
+[
+  {
+    "classID": "color-of-learning",
+    "name": "Colors of learning",
+    "department": "Imagine",
+    "imgUrl": "/images/MainPages/Girl-Holding-World.jpg",
+    "description": "Intro to Spiral Dynamics."
+  },
+  {
+    "classID": "choosing-your-technology",
+    "name": "Choosing your technology",
+    "department": "Build",
+    "imgUrl": "/images/MainPages/stones-gf85571872_1920.jpg",
+    "description": "Pick the right technology for your class"
+  },
+  {
+    "classID": "the-4-turning-of-education",
+    "name": "The Four Turnings of Education",
+    "department": "Imagine, Oversee",
+    "imgUrl": "/images/MainPages/Girl-Holding-World.jpg",
+    "description": "Learn about how generational change can affect your class and your students."
+  }, {
+    "classID": "meet-your-students",
+    "name": "Meet Your Students",
+    "department": "Inspire, Imagine",
+    "imgUrl": "/images/MainPages/Girl-Holding-World.jpg",
+    "description": "Learn how to make personas for your class."
+  },
+  {
+    "classID": "benefits-and-challenges-of-teaching-online",
+    "name": "Benefits and Challenges of Teaching Online",
+    "department": "Build",
+    "imgUrl": "/images/MainPages/Girl-Holding-World.jpg",
+    "description": ""
+  },
+  {
+    "classID": "teaching-tips",
+    "name": "Tips for Online Teaching",
+    "department": "Build",
+    "imgUrl": "/images/MainPages/stones-gf85571872_1920.jpg",
+    "description": ""
+  }
+]
