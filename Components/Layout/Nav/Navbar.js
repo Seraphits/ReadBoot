@@ -33,15 +33,15 @@ import Image from "next/image";
                 <a className={styles.Nav__Link} >About</a>
               </Link>
             </li>
-            <li className={styles.Nav__Item} >
+            {/* <li className={styles.Nav__Item} >
               <Link href="/">
                 <a className={styles.Nav__Link} >Contact Us</a>
               </Link>
-            </li>
+            </li> */}
           </ul>
           </nav>
         </div>
-        <div className={styles.Nav__End} ></div>
+      <div className={styles.Nav__End} ></div>
     </div>
   )
 }
