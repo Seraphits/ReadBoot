@@ -14,7 +14,7 @@ export default function Oversee() {
         <h1>ReadBoot's Six Pillars: Reading</h1>
 
       </header>
-     <h1>Oversee</h1>
+
     </div>
   )
 }
