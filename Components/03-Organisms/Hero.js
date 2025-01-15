@@ -10,6 +10,7 @@ const Hero = css`
   @media only screen and (max-width: 1100px) {
     height: 80vw;
   }
+
 `
 
 export const HeroHome = styled.div`
