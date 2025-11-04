@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <HeroHome>
-        <h1 className={styles.Hero__H1__Home} ><LogoRead>Read</LogoRead><LogoBoot>Boot</LogoBoot>
+        <h1 className={styles.Hero__H1__Home} ><LogoRead>Read</LogoRead><LogoBoot>Boot1</LogoBoot>
           <span >Rebooting Education</span>
         </h1>
       </HeroHome>
