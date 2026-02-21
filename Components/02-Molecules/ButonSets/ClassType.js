@@ -22,4 +22,5 @@ export const BtmBox = styled.div`
   gap: 2rem;
   row-gap: 4rem;
   justify-content: center;
+   background-color: green;
 `
